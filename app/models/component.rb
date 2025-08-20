@@ -1,4 +1,14 @@
 class Component < ApplicationRecord
+  def self.monster_type_options
+    monster_types.keys.map { |k| [k.titleize, k] }
+  end
+
+  def self.component_type_options
+    component_types.keys.map { |k| [k.titleize, k] }
+  end
+  def display_name
+    [monster_type&.to_s&.titleize, component_type&.to_s&.titleize].compact.join(' ')
+  end
   enum :monster_type, {
     aberration: "aberration",
     beast: "beast",
@@ -53,7 +63,11 @@ class Component < ApplicationRecord
     phial_of_sap: "phial_of_sap",
     phial_of_wax: "phial_of_wax",
     pelt: "pelt",
-    pincers: "pincer",
+    pincer: "pincer",
+    skin: "skin",
+    rancid_fat: "rancid_fat",
+    undying_flesh: "undying_flesh",
+    undying_heart: "undying_heart",
     plating: "plating",
     poison_gland: "poison_gland",
     pouch_of_claws: "pouch_of_claws",
