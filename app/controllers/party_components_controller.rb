@@ -1,6 +1,6 @@
 class PartyComponentsController < ApplicationController
   before_action :set_party
-  before_action :set_party_component, only: [:destroy]
+  before_action :set_party_component, only: [ :destroy ]
 
   def index
     @inventory = filtered_party_components

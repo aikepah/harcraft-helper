@@ -16,7 +16,7 @@ class PartiesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should create party" do
-    assert_difference('Party.count') do
+    assert_difference("Party.count") do
       post parties_url, params: { party: { name: "Created Party" } }
     end
     assert_redirected_to party_url(Party.last)
@@ -40,7 +40,7 @@ class PartiesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should destroy party" do
-    assert_difference('Party.count', -1) do
+    assert_difference("Party.count", -1) do
       delete party_url(@party)
     end
     assert_redirected_to parties_url
