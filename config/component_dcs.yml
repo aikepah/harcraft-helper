@@ -1,0 +1,552 @@
+# config/component_dcs.yml
+# Enter the DC for each component type for each monster type.
+aberration:
+  antenna:
+    dc: 5
+  bone:
+    dc: 10
+    edible: true
+  brain:
+    dc: 20
+    edible: true
+  chitin:
+    dc: 20
+  eye:
+    dc: 5
+    edible: true
+  egg:
+    dc: 10
+    edible: true
+  fat:
+    dc: 10
+    edible: true
+  flesh:
+    dc: 5
+    edible: true
+  heart:
+    dc: 15
+    edible: true
+  hide:
+    dc: 20
+  liver:
+    dc: 15
+    edible: true
+  main_eye:
+    dc: 20
+    volatile: true
+  phial_of_blood:
+    dc: 5
+    edible: true
+  phial_of_mucus:
+    dc: 15
+  pouch_of_claws:
+    dc: 10
+  pouch_of_teeth:
+    dc: 10
+  stinger:
+    dc: 15
+  tentacle:
+    dc: 10
+beast:
+  antenna:
+    dc: 5
+    edible: true
+    note: Edible can be used as eyes
+  antler:
+    dc: 10
+  beak:
+    dc: 10
+  bone:
+    dc: 10
+    edible: true
+  chitin:
+    dc: 20
+  egg:
+    dc: 10
+    edible: true
+  eye:
+    dc: 5
+    edible: true
+  fat:
+    dc: 10
+    edible: true
+  fin:
+    dc: 10
+  flesh:
+    dc: 5
+    edible: true
+  heart:
+    dc: 15
+    edible: true
+  horn:
+    dc: 10
+  liver:
+    dc: 15
+    edible: true
+  pelt:
+    dc: 20
+  phial_of_blood:
+    dc: 5
+    edible: true
+  pincer:
+    dc: 10
+  poison_gland:
+    dc: 15
+  pouch_of_claws:
+    dc: 10
+  pouch_of_feathers:
+    dc: 15
+  pouch_of_teeth:
+    dc: 10
+  pouch_of_scales:
+    dc: 15
+  stinger:
+    dc: 15
+  talon:
+    dc: 10
+  tentacle:
+    dc: 15
+  tusk:
+    dc: 10
+celestial:
+  bone:
+    dc: 10
+    edible: true
+  brain:
+    dc: 20
+    edible: true
+  eye:
+    dc: 5
+    edible: true
+  fat:
+    dc: 5
+    edible: true
+  flesh:
+    dc: 5
+    edible: true
+  heart:
+    dc: 15
+    edible: true
+  horn:
+    dc: 10
+  liver:
+    dc: 15
+    edible: true
+  phial_of_blood:
+    dc: 5
+    edible: true
+  pouch_of_dust:
+    dc: 5
+    edible: true
+  pouch_of_feathers:
+    dc: 15
+  pouch_of_scales:
+    dc: 15
+  pouch_of_teeth:
+    dc: 10
+  skin:
+    dc: 20
+  soul:
+    dc: 25
+    volatile: true
+construct:
+  bone:
+    dc: 15
+    edible: true
+  brain:
+    dc: 20
+    edible: true
+  flesh:
+    dc: 10
+    edible: true
+  gears:
+    dc: 15
+  heart:
+    dc: 15
+    edible: true
+  instructions:
+    dc: 20
+  lifespark:
+    dc: 25
+    volatile: true
+  liver:
+    dc: 15
+    edible: true
+  phial_of_blood:
+    dc: 5
+    edible: true
+  phial_of_oil:
+    dc: 5
+    edible: true
+    note: Edible can be used as fat
+  plating:
+    dc: 10
+  stone:
+    dc: 10
+dragon:
+  bone:
+    dc: 10
+    edible: true
+  breath_sac:
+    dc: 25
+    volatile: true
+  egg:
+    dc: 10
+    edible: true
+  eye:
+    dc: 5
+    edible: true
+  fat:
+    dc: 10
+    edible: true
+  flesh:
+    dc: 5
+    edible: true
+  heart:
+    dc: 20
+    edible: true
+  horn:
+    dc: 15
+  liver:
+    dc: 15
+    edible: true
+  phial_of_blood:
+    dc: 5
+    edible: true
+  pouch_of_claws:
+    dc: 10
+  pouch_of_scales:
+    dc: 15
+  pouch_of_teeth:
+    dc: 10
+elemental:
+  bone:
+    dc: 10
+    edible: true
+  core:
+    dc: 25
+    volatile: true
+    note: Core of Air/Earth/Fire/Water
+  eye:
+    dc: 5
+    edible: true
+  primordial_dust:
+    dc: 5
+    edible: true
+    note: Edible can be used as spice
+  volatile_mote:
+    dc: 15
+    volatile: true
+    note: Volatile mote of Air/Earth/Fire/Water
+fey:
+  antenna:
+    dc: 5
+    edible: true
+    note: Edible can be used as eyes
+  antler:
+    dc: 10
+  beak:
+    dc: 10
+  bone:
+    dc: 10
+    edible: true
+  brain:
+    dc: 20
+    edible: true
+  egg:
+    dc: 10
+    edible: true
+  eye:
+    dc: 5
+    edible: true
+  fat:
+    dc: 15
+    edible: true
+  flesh:
+    dc: 5
+    edible: true
+  heart:
+    dc: 15
+    edible: true
+  horn:
+    dc: 10
+  liver:
+    dc: 15
+    edible: true
+  pelt:
+    dc: 20
+  phial_of_blood:
+    dc: 5
+    edible: true
+  poison_gland:
+    dc: 15
+  pouch_of_claws:
+    dc: 10
+  pouch_of_feathers:
+    dc: 15
+  pouch_of_scales:
+    dc: 15
+  pouch_of_teeth:
+    dc: 10
+  psyche:
+    dc: 25
+    volatile: true
+  skin:
+    dc: 20
+  talon:
+    dc: 10
+  tentacle:
+    dc: 15
+  tongue:
+    dc: 15
+  tusk:
+    dc: 10
+fiend:
+  bone:
+    dc: 10
+    edible: true
+  brain:
+    dc: 20
+    edible: true
+  eye:
+    dc: 5
+    edible: true
+  fat:
+    dc: 15
+    edible: true
+  flesh:
+    dc: 5
+    edible: true
+  heart:
+    dc: 15
+    edible: true
+  horn:
+    dc: 10
+  liver:
+    dc: 15
+    edible: true
+  phial_of_blood:
+    dc: 5
+    edible: true
+  poison_gland:
+    dc: 15
+  pouch_of_claws:
+    dc: 10
+  pouch_of_dust:
+    dc: 5
+    edible: true
+    note: Edible can be used as spice
+  pouch_of_feathers:
+    dc: 15
+  pouch_of_scales:
+    dc: 15
+  pouch_of_teeth:
+    dc: 10
+  skin:
+    dc: 20
+  soul:
+    dc: 25
+    volatile: true
+giant:
+  bone:
+    dc: 10
+    edible: true
+  fat:
+    dc: 10
+    edible: true
+  flesh:
+    dc: 5
+    edible: true
+  heart:
+    dc: 15
+    edible: true
+  liver:
+    dc: 15
+    edible: true
+  nail:
+    dc: 5
+  phial_of_blood:
+    dc: 5
+    edible: true
+  skin:
+    dc: 20
+  tooth:
+    dc: 10
+humanoid:
+  bone:
+    dc: 10
+    edible: true
+  brain:
+    dc: 20
+    edible: true
+  egg:
+    dc: 10
+    edible: true
+  eye:
+    dc: 5
+  heart:
+    dc: 15
+    edible: true
+  liver:
+    dc: 15
+    edible: true
+  phial_of_blood:
+    dc: 5
+    edible: true
+  pouch_of_feathers:
+    dc: 15
+  pouch_of_scales:
+    dc: 15
+  pouch_of_teeth:
+    dc: 10
+  skin:
+    dc: 20
+magical_material:
+  blood_mithral:
+    dc: 20
+    note: Special Material see LLTT
+monstrosity:
+  antenna:
+    dc: 5
+    edible: true
+  antler:
+    dc: 10
+  beak:
+    dc: 10
+  bone:
+    dc: 10
+    edible: true
+  chitin:
+    dc: 20
+  egg:
+    dc: 10
+    edible: true
+  eye:
+    dc: 5
+    edible: true
+  fat:
+    dc: 10
+    edible: true
+  fin:
+    dc: 10
+  flesh:
+    dc: 5
+    edible: true
+  heart:
+    dc: 15
+    edible: true
+  horn:
+    dc: 10
+  liver:
+    dc: 15
+    edible: true
+  pelt:
+    dc: 20
+  phial_of_blood:
+    dc: 5
+    edible: true
+  pincer:
+    dc: 10
+  poison_gland:
+    dc: 15
+  pouch_of_claws:
+    dc: 10
+  pouch_of_feathers:
+    dc: 15
+  pouch_of_scales:
+    dc: 15
+  pouch_of_teeth:
+    dc: 10
+  stinger:
+    dc: 15
+  talon:
+    dc: 10
+  tentacle:
+    dc: 15
+  tusk:
+    dc: 10
+ooze:
+  phial_of_acid:
+    dc: 5
+    edible: true
+    note: Edible can be used as blood
+  phial_of_mucus:
+    dc: 10
+    edible: true
+    note: Edible can be used as fat
+  memberane:
+    dc: 20
+  vesicle:
+    dc: 15
+    edible: true
+    note: Edible can be used as liver
+plant:
+  phial_of_sap:
+    dc: 5
+    edible: true
+    note: Edible can be used as blood
+  tuber:
+    dc: 5
+    edible: true
+    note: Edible can be used as flesh
+  bundle_of_roots:
+    dc: 10
+    edible: true
+    note: Edible can be used as bone
+  phial_of_wax:
+    dc: 10
+    edible: true
+    note: Edible can be used as fat
+  pouch_of_hyphae:
+    dc: 10
+    edible: true
+    note: Edible can be used as bone
+  pouch_of_leaves:
+    dc: 10
+  poison_gland:
+    dc: 15
+    edible: true
+    note: Edible can be used as liver
+  pouch_of_pollen:
+    dc: 15
+    edible: true
+    note: Edible can be used as spice
+  pouch_of_spores:
+    dc: 15
+    edible: true
+    note: Edible can be used as spice
+  bark:
+    dc: 20
+    edible: true
+    note: Edible can be used as heart
+  membrane:
+    dc: 20
+    edible: true
+    note: Edible can be used as heart
+undead:
+  bone:
+    dc: 5
+    edible: true
+  ethereal_ichor:
+    dc: 15
+    edible: true
+    note: Edible can be used as spice
+  eye:
+    dc: 5
+    edible: true
+  undying_flesh:
+    dc: 15
+    edible: true
+  undying_heart:
+    dc: 20
+    edible: true
+  marrow:
+    dc: 10
+  phial_of_congealed_blood:
+    dc: 5
+    edible: true
+  pouch_of_teeth:
+    dc: 10
+  rancid_fat:
+    dc: 10
+    edible: true
