@@ -474,7 +474,7 @@ ooze:
     dc: 10
     edible: true
     note: Edible can be used as fat
-  memberane:
+  membrane:
     dc: 20
   vesicle:
     dc: 15

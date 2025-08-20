@@ -44,7 +44,6 @@ class Component < ApplicationRecord
     main_eye: 'main_eye',
     marrow: 'marrow',
     membrane: 'membrane',
-    memberane: 'memberane',
     nail: 'nail',
     phial_of_acid: 'phial_of_acid',
     phial_of_blood: 'phial_of_blood',
