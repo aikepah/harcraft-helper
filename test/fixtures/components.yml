@@ -1,0 +1,32 @@
+# Minimal components fixture for testing (columns: monster_type, component_type, dc, volatile, edible, note)
+aberration_bone:
+  monster_type: aberration
+  component_type: bone
+  dc: 1
+  volatile: false
+  edible: false
+  note: ""
+
+beast_eye:
+  monster_type: beast
+  component_type: eye
+  dc: 1
+  volatile: false
+  edible: false
+  note: ""
+
+dragon_bone:
+  monster_type: dragon
+  component_type: bone
+  dc: 10
+  volatile: false
+  edible: false
+  note: ""
+
+fey_essence:
+  monster_type: fey
+  component_type: essence
+  dc: 8
+  volatile: false
+  edible: true
+  note: ""

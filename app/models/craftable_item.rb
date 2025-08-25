@@ -1,0 +1,2 @@
+class CraftableItem < ApplicationRecord
+end
