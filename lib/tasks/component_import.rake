@@ -7,6 +7,7 @@ namespace :components do
     data = YAML.load_file(path)
 
     updated = 0
+    created = 0
     data.each do |monster_type, comps|
       comps.each do |component_type, attrs|
         attrs ||= {}
@@ -20,10 +21,12 @@ namespace :components do
           component.update(dc: dc, edible: edible, volatile: volatile, note: note)
           updated += 1
         else
-          puts "No component found for #{monster_type} / #{component_type}"
+          Component.create!(monster_type: monster_type, component_type: component_type, dc: dc, edible: edible, volatile: volatile, note: note)
+          created += 1
         end
       end
     end
     puts "Updated #{updated} components from YAML."
+    puts "Created #{created} new components from YAML."
   end
 end

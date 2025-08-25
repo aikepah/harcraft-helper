@@ -1,0 +1,28 @@
+<div class="max-w-2xl mx-auto">
+  <h1 class="font-bold text-2xl mb-4">Parties</h1>
+  <%= link_to 'New Party', new_party_path, class: 'btn btn-primary mb-4' %>
+  
+    <table class="min-w-full border">
+      <thead>
+        <tr>
+          <th class="border px-2 py-1">Name</th>
+          <th class="border px-2 py-1">Notes</th>
+          <th class="border px-2 py-1">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @parties.each do |party| %>
+          <tr>
+            <td class="border px-2 py-1"><%= link_to party.name, party_path(party) %></td>
+            <td class="border px-2 py-1"><%= party.notes %></td>
+            <td class="border px-2 py-1">
+              <%= link_to 'Inventory', party_party_components_path(party), class: 'btn btn-sm btn-info' %>
+              <%= link_to 'Edit', edit_party_path(party), class: 'btn btn-sm btn-secondary' %>
+              <%= button_to 'Delete', party_path(party), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-sm btn-danger' %>
+            </td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+</div>

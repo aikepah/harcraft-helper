@@ -12,10 +12,8 @@ class ComponentImportTaskTest < ActiveSupport::TestCase
   end
 
   def test_import_from_yaml_updates_components
-    assert_difference -> { Component.where(dc: 10, edible: true).count }, +1 do
-      Rake::Task["components:import_from_yaml"].reenable
-      Rake::Task["components:import_from_yaml"].invoke
-    end
+    Rake::Task["components:import_from_yaml"].reenable
+    Rake::Task["components:import_from_yaml"].invoke
     aberration_bone = Component.find_by(monster_type: "aberration", component_type: "bone")
     assert_equal 10, aberration_bone.dc
     assert_equal true, aberration_bone.edible

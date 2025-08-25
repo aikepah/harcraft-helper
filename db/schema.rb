@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_08_20_150001) do
+ActiveRecord::Schema[8.0].define(version: 2025_08_20_150002) do
   create_table "components", force: :cascade do |t|
     t.string "monster_type"
     t.string "component_type"
@@ -21,4 +21,25 @@ ActiveRecord::Schema[8.0].define(version: 2025_08_20_150001) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+  create_table "parties", force: :cascade do |t|
+    t.string "name"
+    t.text "notes"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "party_components", force: :cascade do |t|
+    t.integer "party_id", null: false
+    t.integer "component_id", null: false
+    t.integer "quantity", default: 0
+    t.string "metatag"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["component_id"], name: "index_party_components_on_component_id"
+    t.index ["party_id"], name: "index_party_components_on_party_id"
+  end
+
+  add_foreign_key "party_components", "components"
+  add_foreign_key "party_components", "parties"
 end
