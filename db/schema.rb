@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_08_20_150002) do
+ActiveRecord::Schema[8.0].define(version: 2025_08_25_061308) do
   create_table "components", force: :cascade do |t|
     t.string "monster_type"
     t.string "component_type"
@@ -18,6 +18,28 @@ ActiveRecord::Schema[8.0].define(version: 2025_08_20_150002) do
     t.boolean "volatile", default: false, null: false
     t.boolean "edible", default: false, null: false
     t.text "note"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "craftable_item_components", force: :cascade do |t|
+    t.integer "craftable_item_id", null: false
+    t.integer "component_id", null: false
+    t.integer "quantity"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["component_id"], name: "index_craftable_item_components_on_component_id"
+    t.index ["craftable_item_id"], name: "index_craftable_item_components_on_craftable_item_id"
+  end
+
+  create_table "craftable_items", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.string "item_type"
+    t.string "rarity"
+    t.string "essence_level"
+    t.string "crafting_method"
+    t.string "source"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -40,6 +62,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_08_20_150002) do
     t.index ["party_id"], name: "index_party_components_on_party_id"
   end
 
+  add_foreign_key "craftable_item_components", "components"
+  add_foreign_key "craftable_item_components", "craftable_items"
   add_foreign_key "party_components", "components"
   add_foreign_key "party_components", "parties"
 end
