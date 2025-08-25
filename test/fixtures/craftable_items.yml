@@ -1,19 +1,9 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  name: MyString
-  description: MyText
-  item_type: MyString
-  rarity: MyString
-  essence_level: MyString
-  crafting_method: MyString
-  source: MyString
-
-two:
-  name: MyString
-  description: MyText
-  item_type: MyString
-  rarity: MyString
-  essence_level: MyString
-  crafting_method: MyString
-  source: MyString
+dragon_sword:
+  name: Dragon Sword
+  description: A sword forged with dragon bone.
+  item_type: weapon
+  rarity: rare
+  essence_level: high
+  crafting_method: forge
+  source: ancient forge

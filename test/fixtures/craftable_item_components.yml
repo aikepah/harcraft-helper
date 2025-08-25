@@ -1,11 +1,5 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  craftable_item: one
-  component: one
-  quantity: 1
-
-two:
-  craftable_item: two
-  component: two
-  quantity: 1
+dragon_sword_bone:
+  craftable_item: dragon_sword
+  component: dragon_bone
+  quantity: 2
