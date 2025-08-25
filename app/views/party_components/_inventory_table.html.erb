@@ -1,0 +1,20 @@
+<table class="min-w-full border">
+  <thead>
+    <tr>
+      <th class="border px-2 py-1">Component</th>
+      <th class="border px-2 py-1">Quantity</th>
+      <th class="border px-2 py-1">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% inventory.each do |item| %>
+      <tr>
+        <td class="border px-2 py-1"><%= item.component&.display_name %></td>
+        <td class="border px-2 py-1"><%= item.quantity %></td>
+        <td class="border px-2 py-1">
+          <%= button_to 'Remove', party_party_component_path(party, item), method: :delete, data: { confirm: 'Are you sure?' }, class: 'px-3 py-1 rounded bg-red-600 text-white font-semibold hover:bg-red-800 transition' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

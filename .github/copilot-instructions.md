@@ -2,7 +2,7 @@
 
 ## General Principles
 - Follow Rails conventions (MVC, RESTful routes, naming, etc.).
-- Use Hotwire (Turbo + Stimulus) for interactivity and real-time updates.
+- Use Hotwire (Stimulus) for interactivity and real-time updates.
 - Use SQLite for local development and testing.
 - Prefer server-rendered HTML over heavy frontend JavaScript frameworks.
 - Keep controllers thin, models fat (business logic in models).
@@ -16,12 +16,10 @@
 - Use Rails form helpers and path helpers.
 - Use Rails generators for scaffolding when possible.
 
-## Hotwire (Turbo & Stimulus)
-- Use Turbo Frames and Turbo Streams for partial page updates.
-- Use Stimulus controllers for client-side behavior.
-- Keep Stimulus controllers small and focused.
-- Prefer Turbo Streams for real-time updates (e.g., broadcasting changes).
-- Avoid custom JavaScript unless necessary; use Stimulus for JS needs.
+## Hotwire (Stimulus)
+Use Stimulus controllers for client-side behavior.
+Keep Stimulus controllers small and focused.
+Avoid custom JavaScript unless necessary; use Stimulus for JS needs.
 
 ## Database (SQLite)
 - Use SQLite for development and testing only.

@@ -1,0 +1,43 @@
+<nav class="flex justify-center mt-4" aria-label="Pagination">
+  <ul class="inline-flex -space-x-px">
+    <%# Previous page %>
+    <% if local_assigns[:collection] && collection.prev_page %>
+      <li>
+        <%= link_to raw('&laquo;'), url_for(page: collection.prev_page), class: "px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700" %>
+      </li>
+    <% else %>
+      <li>
+        <span class="px-3 py-2 ml-0 leading-tight text-gray-400 bg-gray-100 border border-gray-300 rounded-l-lg">&laquo;</span>
+      </li>
+    <% end %>
+
+    <% paginator.each_page do |page| %>
+      <% if page %>
+        <% if local_assigns[:collection] && page == collection.current_page %>
+          <li>
+            <span class="px-3 py-2 leading-tight text-blue-600 bg-blue-50 border border-blue-300"> <%= page %> </span>
+          </li>
+        <% else %>
+          <li>
+            <%= link_to page, url_for(page: page), class: "px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700" %>
+          </li>
+        <% end %>
+      <% else %>
+        <li>
+          <span class="px-3 py-2 leading-tight text-gray-400 bg-white border border-gray-300">…</span>
+        </li>
+      <% end %>
+    <% end %>
+
+    <%# Next page %>
+    <% if local_assigns[:collection] && collection.next_page %>
+      <li>
+        <%= link_to raw('&raquo;'), url_for(page: collection.next_page), class: "px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700" %>
+      </li>
+    <% else %>
+      <li>
+        <span class="px-3 py-2 leading-tight text-gray-400 bg-gray-100 border border-gray-300 rounded-r-lg">&raquo;</span>
+      </li>
+    <% end %>
+  </ul>
+</nav>

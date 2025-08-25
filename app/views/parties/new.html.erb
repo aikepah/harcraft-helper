@@ -1,0 +1,17 @@
+<div class="max-w-md mx-auto">
+  <h1 class="font-bold text-2xl mb-4">New Party</h1>
+  <%= form_with(model: @party, local: true) do |f| %>
+    <div class="mb-4">
+      <%= f.label :name, class: 'block mb-1 font-semibold' %>
+      <%= f.text_field :name, class: 'w-full rounded bg-[#FCFCFC] text-[#02111B] border border-[#5D737E] px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#5D737E] dark:bg-[#3F4045] dark:text-[#FCFCFC]' %>
+    </div>
+    <div class="mb-4">
+      <%= f.label :notes, class: 'block mb-1 font-semibold' %>
+      <%= f.text_area :notes, class: 'w-full rounded bg-[#FCFCFC] text-[#02111B] border border-[#5D737E] px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#5D737E] dark:bg-[#3F4045] dark:text-[#FCFCFC]' %>
+    </div>
+    <div class="flex gap-2">
+      <%= f.submit 'Create Party', class: 'px-4 py-2 rounded bg-[#5D737E] text-[#02111B] font-semibold hover:bg-[#3F4045] hover:text-[#FCFCFC] transition' %>
+      <%= link_to 'Back', parties_path, class: 'px-4 py-2 rounded bg-[#3F4045] text-[#FCFCFC] font-semibold hover:bg-[#5D737E] hover:text-[#02111B] transition' %>
+    </div>
+  <% end %>
+</div>
