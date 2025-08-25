@@ -62,7 +62,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_08_25_061308) do
     t.index ["party_id"], name: "index_party_components_on_party_id"
   end
 
-  add_foreign_key "craftable_item_components", "components", on_delete: :cascade
+  add_foreign_key "craftable_item_components", "components"
   add_foreign_key "craftable_item_components", "craftable_items"
   add_foreign_key "party_components", "components"
   add_foreign_key "party_components", "parties"
