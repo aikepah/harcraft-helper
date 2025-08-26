@@ -27,10 +27,10 @@ namespace :crafting do
       rarity = rarity_map[row["Rarity"]&.strip] || row["Rarity"]
       att = row["Att"]&.strip
 
-  # Lower snake case for matching
-  monster_type = row["Monster Type"]&.strip&.downcase&.gsub(/[^a-z0-9]+/, "_")
-  metatag = row["Metatag"]&.strip
-  component_type = row["Component"]&.strip&.downcase&.gsub(/[^a-z0-9]+/, "_")
+    # Lower snake case for matching
+    monster_type = row["Monster Type"]&.strip&.downcase&.gsub(/[^a-z0-9]+/, "_")
+    metatag = row["Metatag"]&.strip
+    component_type = row["Component"]&.strip&.downcase&.gsub(/[^a-z0-9]+/, "_")
 
       # Compose description
       desc_lines = []
