@@ -1,40 +1,40 @@
-require 'csv'
+require "csv"
 
 namespace :crafting do
   desc "Import craftable items and recipes from citems.csv"
   task import_csv: :environment do
-    file_path = Rails.root.join('citems.csv')
+    file_path = Rails.root.join("citems.csv")
     unless File.exist?(file_path)
       puts "citems.csv not found!"
       exit 1
     end
 
     rarity_map = {
-      'C' => 'common',
-      'U' => 'uncommon',
-      'R' => 'rare',
-      'V' => 'very rare',
-      'L' => 'legendary',
-      'A' => 'artifact'
+      "C" => "common",
+      "U" => "uncommon",
+      "R" => "rare",
+      "V" => "very rare",
+      "L" => "legendary",
+      "A" => "artifact"
     }
 
     flagged_rows = []
     imported = 0
     CSV.foreach(file_path, headers: true) do |row|
-      name = row['Name']&.strip
-      item_type = row['Type']&.strip
-      value = row['Value']&.gsub(',', '')&.to_i
-      rarity = rarity_map[row['Rarity']&.strip] || row['Rarity']
-      att = row['Att']&.strip
+      name = row["Name"]&.strip
+      item_type = row["Type"]&.strip
+      value = row["Value"]&.gsub(",", "")&.to_i
+      rarity = rarity_map[row["Rarity"]&.strip] || row["Rarity"]
+      att = row["Att"]&.strip
 
   # Lower snake case for matching
-  monster_type = row['Monster Type']&.strip&.downcase&.gsub(/[^a-z0-9]+/, '_')
-  metatag = row['Metatag']&.strip
-  component_type = row['Component']&.strip&.downcase&.gsub(/[^a-z0-9]+/, '_')
+  monster_type = row["Monster Type"]&.strip&.downcase&.gsub(/[^a-z0-9]+/, "_")
+  metatag = row["Metatag"]&.strip
+  component_type = row["Component"]&.strip&.downcase&.gsub(/[^a-z0-9]+/, "_")
 
       # Compose description
       desc_lines = []
-      desc_lines << "Requires Attunement" if att == 'Req'
+      desc_lines << "Requires Attunement" if att == "Req"
       desc_lines << "Monster: #{metatag}" unless metatag.nil? || metatag.empty?
       description = desc_lines.join("\n")
 

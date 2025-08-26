@@ -1,5 +1,5 @@
 # For CSV import
-gem 'csv'
+gem "csv"
 # Pagination
 gem "kaminari"
 source "https://rubygems.org"
