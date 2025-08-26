@@ -1,0 +1,5 @@
+Name,Type,Value,Rarity,Att,Monster Type,Metatag,Component
+Test Armor,armor,1000,U,Req,dragon,Red,phial of blood
+Test Armor,armor,4000,R,,dragon,Blue,phial of blood
+Test Shield,shield,500,U,,construct,,plating
+Test Shield,shield,2000,R,Req,construct,Animated,plating
