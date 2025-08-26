@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_08_25_061308) do
+ActiveRecord::Schema[8.0].define(version: 2025_08_25_120000) do
   create_table "components", force: :cascade do |t|
     t.string "monster_type"
     t.string "component_type"
@@ -42,6 +42,12 @@ ActiveRecord::Schema[8.0].define(version: 2025_08_25_061308) do
     t.string "source"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "manufacturing_dc"
+    t.integer "enchanting_dc"
+    t.string "tool"
+    t.string "time_required"
+    t.integer "material_cost"
+    t.string "auxiliary_equipment"
   end
 
   create_table "parties", force: :cascade do |t|
@@ -62,7 +68,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_08_25_061308) do
     t.index ["party_id"], name: "index_party_components_on_party_id"
   end
 
-  add_foreign_key "craftable_item_components", "components", on_delete: :cascade
+  add_foreign_key "craftable_item_components", "components"
   add_foreign_key "craftable_item_components", "craftable_items"
   add_foreign_key "party_components", "components"
   add_foreign_key "party_components", "parties"
