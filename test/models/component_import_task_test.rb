@@ -6,7 +6,7 @@ class ComponentImportTaskTest < ActiveSupport::TestCase
     Rails.application.load_tasks
     Rake::Task.define_task(:environment)
     CraftableItemComponent.delete_all if defined?(CraftableItemComponent)
-  PartyComponent.delete_all if defined?(PartyComponent)
+    PartyComponent.delete_all if defined?(PartyComponent)
     Component.delete_all
     # Seed a few components for import to update
     Component.create!(monster_type: "aberration", component_type: "bone", dc: 1, edible: false, volatile: false, note: "")
