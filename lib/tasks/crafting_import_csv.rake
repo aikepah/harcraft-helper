@@ -1,3 +1,7 @@
+  # Helper to normalize type strings (downcase, parameterize, remove spaces)
+  def normalize_type(str)
+    str.to_s.strip.downcase.gsub(/\s+/, "_")
+  end
 require "csv"
 
 namespace :crafting do

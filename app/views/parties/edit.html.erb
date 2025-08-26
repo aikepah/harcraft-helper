@@ -10,8 +10,8 @@
       <%= f.text_area :notes, class: 'w-full rounded bg-[#FCFCFC] text-[#02111B] border border-[#5D737E] px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#5D737E] dark:bg-[#3F4045] dark:text-[#FCFCFC]' %>
     </div>
     <div class="flex gap-2">
-      <%= f.submit 'Update Party', class: 'px-4 py-2 rounded bg-[#5D737E] text-[#02111B] font-semibold hover:bg-[#3F4045] hover:text-[#FCFCFC] transition' %>
-      <%= link_to 'Back', parties_path, class: 'px-4 py-2 rounded bg-[#3F4045] text-[#FCFCFC] font-semibold hover:bg-[#5D737E] hover:text-[#02111B] transition' %>
+      <%= f.submit 'Update Party', class: 'px-4 py-2 rounded font-semibold transition focus:outline-none bg-[#5D737E] text-[#02111B] hover:bg-[#3F4045] hover:text-[#FCFCFC]', aria: { label: 'Update party' } %>
+      <%= link_to 'Back', parties_path, class: 'px-4 py-2 rounded font-semibold transition focus:outline-none bg-[#3F4045] text-[#FCFCFC] hover:bg-[#5D737E] hover:text-[#02111B]', aria: { label: 'Back to parties' } %>
     </div>
   <% end %>
 </div>

@@ -8,11 +8,32 @@
   </thead>
   <tbody>
     <% inventory.each do |item| %>
-      <tr>
-        <td class="border px-2 py-1"><%= item.component&.display_name %></td>
+      <tr data-controller="expandable-row" data-expandable-row-component-id-value="<%= item.component_id %>">
+        <td class="border px-2 py-1 flex items-center gap-2">
+          <button
+            type="button"
+            class="expand-btn text-lg p-0 w-6 h-6 flex items-center justify-center bg-[#3F4045] text-[#FCFCFC] hover:bg-[#5D737E] hover:text-[#02111B] rounded transition focus:outline-none"
+            aria-label="Expand row"
+            data-controller="expandable-row"
+            data-expandable-row-component-id-value="<%= item.component_id %>"
+            data-action="click->expandable-row#toggle"
+          >
+            <span data-expandable-row-target="icon" aria-hidden="true">&#9654;</span>
+          </button>
+          <%= item.component.display_name %>
+        </td>
         <td class="border px-2 py-1"><%= item.quantity %></td>
         <td class="border px-2 py-1">
-          <%= button_to 'Remove', party_party_component_path(party, item), method: :delete, data: { confirm: 'Are you sure?' }, class: 'px-3 py-1 rounded bg-red-600 text-white font-semibold hover:bg-red-800 transition' %>
+          <%= button_to 'Remove', party_party_component_path(party, item), method: :delete, data: { confirm: 'Are you sure?' },
+            button_html: {
+              class: 'px-4 py-2 rounded font-semibold transition focus:outline-none bg-red-600 text-white hover:bg-red-800',
+              'aria-label': 'Remove component'
+            } %>
+        </td>
+      </tr>
+      <tr id="craftable-items-<%= item.component_id %>" class="hidden">
+        <td colspan="3" class="p-0 border-t-0">
+          <%= render partial: "party_components/craftable_items_for_component", locals: { component: item.component } %>
         </td>
       </tr>
     <% end %>
