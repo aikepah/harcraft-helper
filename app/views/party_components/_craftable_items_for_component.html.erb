@@ -1,0 +1,30 @@
+<div class="p-4">
+  <% craftable_items = CraftableItem.joins(:craftable_item_components).where(craftable_item_components: { component_id: component.id }) %>
+  <% if craftable_items.any? %>
+    <h4 class="font-semibold mb-2">Craftable Items Using This Component:</h4>
+    <table class="w-full text-sm border">
+      <thead>
+        <tr>
+          <th class="border px-2 py-1">Name</th>
+          <th class="border px-2 py-1">Rarity</th>
+          <th class="border px-2 py-1">Type</th>
+          <th class="border px-2 py-1">Material Cost</th>
+          <th class="border px-2 py-1">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% craftable_items.each do |item| %>
+          <tr>
+            <td class="border px-2 py-1"><%= item.name %></td>
+            <td class="border px-2 py-1"><%= item.rarity&.titleize %></td>
+            <td class="border px-2 py-1"><%= item.item_type %></td>
+            <td class="border px-2 py-1"><%= item.material_cost %></td>
+            <td class="border px-2 py-1"><%= item.description&.truncate(60) %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  <% else %>
+    <div class="text-gray-500 italic">No craftable items use this component.</div>
+  <% end %>
+</div>

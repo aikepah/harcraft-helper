@@ -15,14 +15,14 @@ class PartyInventoryTest < ApplicationSystemTestCase
     select @component.monster_type.titleize, from: "monster_type"
     # Filter by component type
     select @component.component_type.titleize, from: "component_type"
-    # Add the component
+    # Add the component (use more specific selector for Add button)
     within(:xpath, "//tr[td[contains(text(), '#{@component.display_name}')]]") do
-      click_button "Add"
+      find("button[data-action='click->modal#open']").click
     end
     # Modal should appear
     assert_selector "#add-form-modal", visible: true
     fill_in "Quantity", with: 2
-    click_button "Add"
+    find("#add-form-modal button[type='submit']").click
     # Should redirect to inventory and show the new component
     assert_text @component.display_name
     assert_text "2"
@@ -32,9 +32,11 @@ class PartyInventoryTest < ApplicationSystemTestCase
     @party_component = @party.party_components.create!(component: @component, quantity: 1)
     visit party_party_components_path(@party)
     assert_text @component.display_name
-    accept_confirm do
+    # Remove the component (JS confirm auto-accepted)
+    within("tr[data-expandable-row-component-id-value='#{@component.id}']") do
       click_button "Remove"
     end
+    # Should no longer see the component in inventory (check after row is gone)
     assert_no_text @component.display_name
   end
 end
