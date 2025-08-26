@@ -46,12 +46,12 @@ namespace :crafting do
       end
 
 
-  # Create or update the craftable item (allow same name with different rarity)
-  ci = CraftableItem.find_or_initialize_by(name: name, rarity: rarity)
-  ci.item_type = item_type
-  ci.material_cost = value
-  ci.description = description
-  ci.save!
+      # Create or update the craftable item (allow same name with different rarity)
+      ci = CraftableItem.find_or_initialize_by(name: name, rarity: rarity)
+      ci.item_type = item_type
+      ci.material_cost = value
+      ci.description = description
+      ci.save!
 
       # Link the component (one per item)
       CraftableItemComponent.find_or_create_by!(craftable_item: ci, component: component)
