@@ -28,9 +28,9 @@ namespace :crafting do
       att = row["Att"]&.strip
 
       # Lower snake case for matching
-    monster_type = row["Monster Type"]&.strip&.downcase&.gsub(/[^a-z0-9]+/, "_")
-    metatag = row["Metatag"]&.strip
-    component_type = row["Component"]&.strip&.downcase&.gsub(/[^a-z0-9]+/, "_")
+      monster_type = normalize_type(row["Monster Type"])
+      metatag = row["Metatag"]&.strip
+      component_type = normalize_type(row["Component"])
 
       # Compose description
       desc_lines = []
