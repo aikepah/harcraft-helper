@@ -24,11 +24,11 @@
         </td>
         <td class="border px-2 py-1"><%= item.quantity %></td>
         <td class="border px-2 py-1">
-          <%= button_to 'Remove', party_party_component_path(party, item), method: :delete, data: { confirm: 'Are you sure?' },
-            button_html: {
-              class: 'px-4 py-2 rounded font-semibold transition focus:outline-none bg-red-600 text-white hover:bg-red-800',
-              'aria-label': 'Remove component'
-            } %>
+          <%= button_to 'Remove', party_party_component_path(party, item), 
+            method: :delete, 
+            data: { confirm: 'Are you sure?' },
+            class: 'px-4 py-2 rounded font-semibold transition focus:outline-none bg-red-600 text-white hover:bg-red-800',
+            'aria-label': 'Remove component' %>
         </td>
       </tr>
       <tr id="craftable-items-<%= item.component_id %>" class="hidden">
