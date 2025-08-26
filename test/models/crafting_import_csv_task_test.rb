@@ -6,7 +6,7 @@ class CraftingImportCsvTaskTest < ActiveSupport::TestCase
   def setup
     Rails.application.load_tasks
     Rake::Task.define_task(:environment)
-  CraftableItemComponent.delete_all
+    CraftableItemComponent.delete_all
   CraftableItem.delete_all
   Component.delete_all
     # Seed components for matching
