@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_09_01_000000) do
+ActiveRecord::Schema[8.0].define(version: 2025_09_01_001000) do
   create_table "components", force: :cascade do |t|
     t.string "monster_type"
     t.string "component_type"
@@ -21,6 +21,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_09_01_000000) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.boolean "crafting", default: false, null: false
+    t.string "name"
   end
 
   create_table "craftable_item_components", force: :cascade do |t|
