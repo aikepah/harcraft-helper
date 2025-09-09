@@ -1,0 +1,2859 @@
+[
+  {
+    "name": "+1 Ammunition",
+    "item": [
+      "Compendium.dnd5e.items.tEWhsb2lYF4uvF0z",
+      "Compendium.dnd5e.items.ZjUOHSyND2VFXQeP",
+      "Compendium.dnd5e.items.NYIib9KEYDUFe9GY"
+    ],
+    "rarity": "uncommon",
+    "qty": 10,
+    "price": 25,
+    "component": "Pouch of Beast Teeth"
+  },
+  {
+    "name": "+2 Ammunition",
+    "item": [
+      "Compendium.dnd5e.items.gLkbbUtGhQgYANM8",
+      "Compendium.dnd5e.items.x1GUgZYjMubaFavx",
+      "Compendium.dnd5e.items.BNJmdttKvIwC08Pd"
+    ],
+    "rarity": "rare",
+    "qty": 10,
+    "price": 100,
+    "component": "Pouch of Monstrosity Teeth"
+  },
+  {
+    "name": "+3 Ammunition",
+    "item": [
+      "Compendium.dnd5e.items.IY5PveXrF7VoFlWg",
+      "Compendium.dnd5e.items.XXLznzi3rlanMhTM",
+      "Compendium.dnd5e.items.x9I9vdo4kafHDjcO"
+    ],
+    "rarity": "veryRare",
+    "qty": 10,
+    "price": 480,
+    "component": "Pouch of Dragon Teeth"
+  },
+  {
+    "name": "Ammunition of Slaying",
+    "item": [
+      "Compendium.dnd5e.items.aXsfZvDCdpuv3Yvb",
+      "Compendium.dnd5e.items.6OIw31CDF6mAwFnd",
+      "Compendium.dnd5e.items.Mj8fTo5VZKJJ7uMv"
+    ],
+    "rarity": "veryRare",
+    "price": 550,
+    "variants": [
+      {
+        "component": "Phial of Aberration Blood",
+        "mod": "Aberration"
+      },
+      {
+        "component": "Phial of Beast Blood",
+        "mod": "Beast"
+      },
+      {
+        "component": "Phial of Celestial Blood",
+        "mod": "Celestial"
+      },
+      {
+        "component": "Phial of Construct Blood",
+        "mod": "Construct"
+      },
+      {
+        "component": "Phial of Dragon Blood",
+        "mod": "Dragon"
+      },
+      {
+        "component": "Elemental Primordial Dust",
+        "mod": "Elemental"
+      },
+      {
+        "component": "Phial of Fey Blood",
+        "mod": "Fey"
+      },
+      {
+        "component": "Phial of Fiend Blood",
+        "mod": "Fiend"
+      },
+      {
+        "component": "Phial of Giant Blood",
+        "mod": "Giant"
+      },
+      {
+        "component": "Phial of Humanoid Blood",
+        "mod": "Humanoid"
+      },
+      {
+        "component": "Phial of Monstrosity Blood",
+        "mod": "Monstrosity"
+      },
+      {
+        "component": "Phial of Ooze Acid",
+        "mod": "Ooze"
+      },
+      {
+        "component": "Phial of Plant Sap",
+        "mod": "Plant"
+      },
+      {
+        "component": "Phial of Undead Congealed Blood",
+        "mod": "Undead"
+      }
+    ]
+  },
+  {
+    "name": "+1 Armor",
+    "item": [
+      "Compendium.dnd5e.items.84z9mVy1mCipUWEY",
+      "Compendium.dnd5e.items.Rn9gt6JGULtx9Zvz",
+      "Compendium.dnd5e.items.MSO3JxK8578xSh6x",
+      "Compendium.dnd5e.items.dOZkW5MwvsMhnd08",
+      "Compendium.dnd5e.items.k2B9P3gm2NGjJ1m0",
+      "Compendium.dnd5e.items.dXtZxlh2VKLCo1nA",
+      "Compendium.dnd5e.items.twRJhPtDQe1HceFt",
+      "Compendium.dnd5e.items.fStHPOhuJvwEjzQh",
+      "Compendium.dnd5e.items.NM1dPyKwHw2DyUWA",
+      "Compendium.dnd5e.items.aDEAwKwttl35dWaB",
+      "Compendium.dnd5e.items.HpEEfZg9PRkXnMi4",
+      "Compendium.dnd5e.items.STxsp9Ao3pS2T4gt"
+    ],
+    "price": 1500,
+    "includeBasePrice": true,
+    "rarity": "rare",
+    "component": "Beast Bone",
+    "metatag": "Dinosaur"
+  },
+  {
+    "name": "+2 Armor",
+    "item": [
+      "Compendium.dnd5e.items.ET8Oo5vaTZqyb7rN",
+      "Compendium.dnd5e.items.akjpaK4TYkUZbGrN",
+      "Compendium.dnd5e.items.FLoBS3UnFnZTSsSx",
+      "Compendium.dnd5e.items.YFarUKR3OrM5raf5",
+      "Compendium.dnd5e.items.XJFqU9COdk4ycFa2",
+      "Compendium.dnd5e.items.UT8zCwmdXVQlBiyl",
+      "Compendium.dnd5e.items.G9XQPNLlDXkpVxn1",
+      "Compendium.dnd5e.items.VTc5McIjCm40KPIz",
+      "Compendium.dnd5e.items.M28HYDCueaK7J8u8",
+      "Compendium.dnd5e.items.fO1PuSOtZWLzEHqu",
+      "Compendium.dnd5e.items.zIpNJyuOxp2raizE",
+      "Compendium.dnd5e.items.FZixEM5voQkH84xP"
+    ],
+    "price": 6500,
+    "includeBasePrice": true,
+    "rarity": "veryRare",
+    "component": "Monstrosity Bone",
+    "metatag": "Gorgon"
+  },
+  {
+    "name": "+3 Armor",
+    "item": [
+      "Compendium.dnd5e.items.JDTO996oInbiZGHW",
+      "Compendium.dnd5e.items.eHGbr3rqRRxdBPLq",
+      "Compendium.dnd5e.items.cI0UhWUux8gIzSHn",
+      "Compendium.dnd5e.items.xbVpKtrQ6tJsPhXX",
+      "Compendium.dnd5e.items.IeM5Ha2cg0RA99q3",
+      "Compendium.dnd5e.items.ZwFCZDgQljlidzns",
+      "Compendium.dnd5e.items.XKnDE8DTrJxIkVCF",
+      "Compendium.dnd5e.items.466j8hy4AiENMHVQ",
+      "Compendium.dnd5e.items.KhRhwADrTpol3yTx",
+      "Compendium.dnd5e.items.9uT9SXy1Gb1jiiZX",
+      "Compendium.dnd5e.items.BwC8hZaNjO7IQc6K",
+      "Compendium.dnd5e.items.00BggOkChWztQx6R"
+    ],
+    "price": 28800,
+    "includeBasePrice": true,
+    "rarity": "legendary",
+    "component": "Dragon Bone",
+    "metatag": "Magnetite"
+  },
+  {
+    "name": "Armor of Resistance",
+    "item": [
+      "Compendium.dnd5e.items.lccm5AjIk91aIHbi",
+      "Compendium.dnd5e.items.BQw5lyopqLmf8B6u",
+      "Compendium.dnd5e.items.HF32aZSVw4P0MR4K",
+      "Compendium.dnd5e.items.lN1VbnGFo3HNZXNb",
+      "Compendium.dnd5e.items.VRT5GEusTFstOZdF",
+      "Compendium.dnd5e.items.dRtb9Tg34NKX9mGF",
+      "Compendium.dnd5e.items.698gLyJ4JKVVMF53",
+      "Compendium.dnd5e.items.azxwKFHrNmG3HpVy",
+      "Compendium.dnd5e.items.Wo2Dkh191C4VmLmg",
+      "Compendium.dnd5e.items.f0I81P9k29Q1lV4S",
+      "Compendium.dnd5e.items.JNkjtTxYmEC7W34O",
+      "Compendium.dnd5e.items.W1kDsFekjroIywuz"
+    ],
+    "rarity": "uncommon",
+    "includeBasePrice": true,
+    "variants": [
+      {
+        "component": "Ooze Membrane",
+        "metatag": "Black Pudding",
+        "price": 1200,
+        "mod": "Acid"
+      },
+      {
+        "component": "Fiend Skin",
+        "metatag": "Ice Devil",
+        "price": 1200,
+        "mod": "Cold"
+      },
+      {
+        "component": "Elemental Bone",
+        "metatag": "Salamander",
+        "price": 1500,
+        "mod": "Fire"
+      },
+      {
+        "component": "Construct Bone",
+        "metatag": "Golem",
+        "price": 1200,
+        "mod": "Force"
+      },
+      {
+        "component": "Elemental Bone",
+        "metatag": "Djinni",
+        "price": 1200,
+        "mod": "Lightning"
+      },
+      {
+        "component": "Undead Undying Flesh",
+        "metatag": "Mummy",
+        "price": 1200,
+        "mod": "Necrotic"
+      },
+      {
+        "component": "Monstrosity Liver",
+        "metatag": "Naga",
+        "price": 1500,
+        "mod": "Poison"
+      },
+      {
+        "component": "Aberration Brain",
+        "metatag": "Aboleth",
+        "price": 1100,
+        "mod": "Psychic"
+      },
+      {
+        "component": "Celestial Bone",
+        "metatag": "Planetar",
+        "price": 1100,
+        "mod": "Radiant"
+      },
+      {
+        "component": "Giant Bone",
+        "metatag": "Storm",
+        "price": 1100,
+        "mod": "Thunder"
+      }
+    ]
+  },
+  {
+    "name": "Armor of Invulnerability",
+    "item": "Compendium.dnd5e.items.evSCq83oPhR0ZK4y",
+    "rarity": "legendary",
+    "price": "18000",
+    "component": "Construct Plating",
+    "metatag": "Golem"
+  },
+  {
+    "name": "Demon Armor",
+    "item": "Compendium.dnd5e.items.ejEt6hLQxOux04lS",
+    "rarity": "rare",
+    "price": 3000,
+    "component": "Fiend Bone",
+    "metatag": "Demon"
+  },
+  {
+    "name": "Dwarven Plate",
+    "item": "Compendium.dnd5e.items.OwqRt1pVLhdMQa0d",
+    "rarity": "veryRare",
+    "price": 6500,
+    "component": "Phial of Dragon Blood"
+  },
+  {
+    "name": "Glamoured Studded Leather",
+    "item": "Compendium.dnd5e.items.SypSoinJkES0o5FB",
+    "rarity": "rare",
+    "price": 2100,
+    "component": "Phial of Fey Blood",
+    "metatag": "Hag"
+  },
+  {
+    "name": "Dragon Scale Mail",
+    "item": "Compendium.dnd5e.items.tIwoSAGJlcuyiwaQ",
+    "rarity": "veryRare",
+    "price": 9400,
+    "component": "Pouch of Dragon Scales",
+    "variants": [
+      {
+        "mod": "Black",
+        "metatag": "Black"
+      },
+      {
+        "mod": "Blue",
+        "metatag": "Blue"
+      },
+      {
+        "mod": "Brass",
+        "metatag": "Brass"
+      },
+      {
+        "mod": "Bronze",
+        "metatag": "Bronze"
+      },
+      {
+        "mod": "Copper",
+        "metatag": "Copper"
+      },
+      {
+        "mod": "Gold",
+        "metatag": "Gold"
+      },
+      {
+        "mod": "Green",
+        "metatag": "Green"
+      },
+      {
+        "mod": "Red",
+        "metatag": "Red"
+      },
+      {
+        "mod": "Silver",
+        "metatag": "Silver"
+      },
+      {
+        "mod": "White",
+        "metatag": "White"
+      }
+    ]
+  },
+  {
+    "name": "Elven Chain",
+    "item": "Compendium.dnd5e.items.6067acDZGv7KNOkP",
+    "rarity": "rare",
+    "price": 2500,
+    "component": "Pouch of Fey Scales"
+  },
+  {
+    "name": "Armor of Vulnerability",
+    "item": "Compendium.dnd5e.items.YwS4pESpfsiq0JZv",
+    "rarity": "uncommon",
+    "price": 500,
+    "includeBasePrice": true,
+    "component": "Phial of Fiend Blood"
+  },
+  {
+    "name": "Plate Armor of Etherealness",
+    "item": "Compendium.dnd5e.items.dJjdWdaZU30r1zx4",
+    "rarity": "legendary",
+    "price": 41600,
+    "component": "Undead Ethereal Ichor"
+  },
+  {
+    "name": "Animated Shield",
+    "item": "Compendium.dnd5e.items.NG8BlE2nwYJxCjWO",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Construct Instructions",
+    "metatag": "Animated"
+  },
+  {
+    "name": "Arrow-Catching Shield",
+    "item": "Compendium.dnd5e.items.uWUD93jwuO2Jxkti",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Celestial Skin"
+  },
+  {
+    "name": "Shield of Missile Attraction",
+    "item": "Compendium.dnd5e.items.M5APnDW8bKQb7fHI",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Dragon Horn",
+    "metatag": "Magnetite"
+  },
+  {
+    "name": "Spellguard Shield",
+    "item": "Compendium.dnd5e.items.kpDbCYgUivh7NApp",
+    "rarity": "veryRare",
+    "price": 25000,
+    "component": "Construct Plating",
+    "metatag": "Shield Guardian"
+  },
+  {
+    "name": "+1 Shield",
+    "item": "Compendium.dnd5e.items.NgwrqNa6kkgoPW2Q",
+    "rarity": "rare",
+    "price": 1500,
+    "component": "Pouch of Beast Scales",
+    "metatag": "Beetle"
+  },
+  {
+  "name": "+2 Shield",
+  "item": "Compendium.dnd5e.items.xzZQIIxXjNJwNqnp",
+  "rarity": "veryRare",
+  "price": 6500,
+  "component": "Pouch of Monstrosity Scales",
+  "metatag": "Bulette"
+  },
+  {
+    "name": "+3 Shield",
+    "item": "Compendium.dnd5e.items.WfqBg3yBNoJQtVEB",
+    "rarity": "legendary",
+    "price": 28800,
+    "component": "Pouch of Dragon Scales"
+  },
+  {
+    "name": "Oil of Etherealness",
+    "item": "Compendium.dnd5e.items.Xbq8CyXSRV358SfP",
+    "rarity": "rare",
+    "price": 1900,
+    "component": "Undead Ethereal Ichor"
+  },
+  {
+    "name": "Oil of Sharpness",
+    "item": "Compendium.dnd5e.items.C0MNXWA81ufzGlp5",
+    "rarity": "veryRare",
+    "price": 4800,
+    "component": "Fey Fat"
+  },
+  {
+    "name": "Oil of Slipperiness",
+    "item": "Compendium.dnd5e.items.FIDyR0kZnxGy7bj8",
+    "rarity": "uncommon",
+    "price": 480,
+    "component": "Phial of Construct Oil"
+  },
+  {
+    "name": "Philter of Love",
+    "item": "Compendium.dnd5e.items.63nb14yQRJMc4bIn",
+    "rarity": "uncommon",
+    "price": 180,
+    "component": "Phial of Fey Blood"
+  },
+  {
+    "name": "Potion of Animal Friendship",
+    "item": "Compendium.dnd5e.items.nXWevqtV6p484N59",
+    "rarity": "uncommon",
+    "price": 200,
+    "component": "Phial of Beast Blood"
+  },
+  {
+    "name": "Potion of Clairvoyance",
+    "item": "Compendium.dnd5e.items.bAyr7j5Peq9wIJTa",
+    "rarity": "rare",
+    "price": 900,
+    "component": "Celestial Eye"
+  },
+  {
+    "name": "Potion of Climbing",
+    "item": "Compendium.dnd5e.items.aMnWi1WXWpxRHq4r",
+    "rarity": "common",
+    "price": 50,
+    "component": "Pouch of Beast Claws",
+    "metatag": "Spider"
+  },
+  {
+    "name": "Potion of Cloud Giant Strength",
+    "item": "Compendium.dnd5e.items.lAcTZgNtpmks2Mo5",
+    "rarity": "veryRare",
+    "price": 6000,
+    "metatag": "Cloud",
+    "component": "Giant Nail"
+  },
+  {
+    "name": "Potion of Diminution",
+    "item": "Compendium.dnd5e.items.HY8duCwmvlXOruTG",
+    "rarity": "uncommon",
+    "price": 270,
+    "component": "Phial of Humanoid Blood",
+    "metatag": "Gnome"
+  },
+  {
+    "name": "Potion of Flying",
+    "item": "Compendium.dnd5e.items.eTNc8XPtvZNe3yQs",
+    "rarity": "rare",
+    "price": 900,
+    "component": "Dragon Fat"
+  },
+  {
+    "name": "Potion of Fire Giant Strength",
+    "item": "Compendium.dnd5e.items.bEZOY6uvHRweMM56",
+    "rarity": "rare",
+    "price": 3000,
+    "component": "Giant Nail",
+    "metatag": "Fire"
+  },
+  {
+    "name": "Potion of Frost Giant Strength",
+    "item": "Compendium.dnd5e.items.TevMHicE3A70AlmP",
+    "rarity": "rare",
+    "price": 1500,
+    "component": "Giant Nail",
+    "metatag": "Frost"
+  },
+  {
+    "name": "Potion of Hill Giant Strength",
+    "item": "Compendium.dnd5e.items.mhFBTY0egW8AeCHe",
+    "rarity": "uncommon",
+    "price": 500,
+    "component": "Giant Nail",
+    "metatag": "Hill"
+  },
+  {
+    "name": "Potion of Stone Giant Strength",
+    "item": "Compendium.dnd5e.items.4ZiJsDTRA1GgcWKP",
+    "rarity": "rare",
+    "price": 1500,
+    "component": "Giant Nail",
+    "metatag": "Stone"
+  },
+  {
+    "name": "Potion of Storm Giant Strength",
+    "item": "Compendium.dnd5e.items.1KMSpOSU0EliUBm2",
+    "rarity": "legendary",
+    "price": 30000,
+    "component": "Giant Nail",
+    "metatag": "Storm"
+  },
+  {
+    "name": "Potion of Gaseous Form",
+    "item": "Compendium.dnd5e.items.bqZ6NTLDCUB98YjV",
+    "rarity": "rare",
+    "price": 900,
+    "component": "Ooze Vesicle"
+  },
+  {
+    "name": "Potion of Greater Healing",
+    "item": "Compendium.dnd5e.items.L887NdWEP5NqHCrQ",
+    "rarity": "uncommon",
+    "price": 250,
+    "component": "Humanoid Bone"
+  },
+  {
+    "name": "Potion of Growth",
+    "item": "Compendium.dnd5e.items.gTRFQLdVD1gsKtPi",
+    "rarity": "uncommon",
+    "price": 270,
+    "component": "Phial of Giant Blood"
+  },
+  {
+    "name": "Potion of Healing",
+    "item": "Compendium.dnd5e.items.ytlsBjYsZ7OBSEBs",
+    "rarity": "common",
+    "price": 50,
+    "component": "Beast Fat"
+  },
+  {
+    "name": "Potion of Heroism",
+    "item": "Compendium.dnd5e.items.wNKYbKYwOHbA7SH8",
+    "rarity": "uncommon",
+    "price": 180,
+    "component": "Phial of Celestial Blood"
+  },
+  {
+    "name": "Potion of Invisibility",
+    "item": "Compendium.dnd5e.items.rTn4p9nJr4Aq2GPB",
+    "rarity": "rare",
+    "price": 900,
+    "component": "Humanoid Skin",
+    "metatag": "Duergar"
+  },
+  {
+    "name": "Potion of Mind Reading",
+    "item": "Compendium.dnd5e.items.Ct9LR9Ft1FG4a6Y1",
+    "rarity": "uncommon",
+    "price": 180,
+    "component": "Phial of Aberration Mucus",
+    "metatag": "Aboleth"
+  },
+  {
+    "name": "Potion of Poison",
+    "item": "Compendium.dnd5e.items.qBSEGJyHxdKIlBfj",
+    "rarity": "uncommon",
+    "price": 180,
+    "component": "Plant Poison Gland"
+  },
+  {
+    "name": "Potion of Resistance",
+    "rarity": "uncommon",
+    "variants": [
+      {
+        "item": "Compendium.dnd5e.items.zgZkJAyFAfYmyn11",
+        "price": 240,
+        "component": "Volatile Mote of Elemental Water"
+      },
+      {
+        "item": "Compendium.dnd5e.items.34YKlIJVVWLeBv7R",
+        "price": 240,
+        "component": "Fiend Fat",
+        "metatag": "Ice Devil"
+      },
+      {
+        "item": "Compendium.dnd5e.items.Jj4iFQQGvckx8Wsj",
+        "price": 300,
+        "component": "Fiend Fat",
+        "metatag": "Hell Hound"
+      },
+      {
+        "item": "Compendium.dnd5e.items.kKGJjVVlJVoakWgQ",
+        "price": 240,
+        "component": "Aberration Fat"
+      },
+      {
+        "item": "Compendium.dnd5e.items.8MPnSrvEeZhPhtTi",
+        "price": 240,
+        "component": "Phial of Construct Blood",
+        "metatag": "Flesh Golem"
+      },
+      {
+        "item": "Compendium.dnd5e.items.xw99pcqPBVwtMOLw",
+        "price": 240,
+        "component": "Phial of Undead Congealed Blood"
+      },
+      {
+        "item": "Compendium.dnd5e.items.f5chGcpQCi1HYPQw",
+        "price": 300,
+        "component": "Fiend Fat",
+        "metatag": "Bearded Devil"
+      },
+      {
+        "item": "Compendium.dnd5e.items.c0luemOP0iW8L23R",
+        "price": 220,
+        "component": "Aberration Fat",
+        "metatag": "Dreamholder"
+      },
+      {
+        "item": "Compendium.dnd5e.items.LBQWNqX6hZOKhQ8a",
+        "price": 220,
+        "component": "Celestial Fat",
+        "metatag": "Couatl"
+      },
+      {
+        "item": "Compendium.dnd5e.items.zBX8LLC2CjC89Dzl",
+        "price": 220,
+        "component": "Giant Fat",
+        "metatag": "Storm"
+      }
+    ]
+  },
+  {
+    "name": "Potion of Speed",
+    "item": "Compendium.dnd5e.items.ctKfjHjk9gs9UtZI",
+    "rarity": "veryRare",
+    "price": 4800,
+    "component": "Fey Liver"
+  },
+  {
+    "name": "Potion of Superior Healing",
+    "item": "Compendium.dnd5e.items.5m9ErO9In8Uc5yyf",
+    "rarity": "rare",
+    "price": 1000,
+    "component": "Monstrosity Liver"
+  },
+  {
+    "name": "Potion of Supreme Healing",
+    "item": "Compendium.dnd5e.items.JFiSlgcm3uSSBM5t",
+    "rarity": "veryRare",
+    "price": 5000,
+      "component": [
+        "Monstrosity Liver",
+        "Monstrosity Fat"
+    ]
+  },
+  {
+    "name": "Potion of Water Breathing",
+    "item": "Compendium.dnd5e.items.CAZMwFBWp9VC0ZCg",
+    "rarity": "uncommon",
+    "price": 180,
+    "component": "Beast Fin"
+  },
+  {
+    "name": "Ring of Air Elemental Command",
+    "item": "Compendium.dnd5e.items.XZWHQ20ynJBK6xmU",
+    "rarity": "legendary",
+    "price": 35000,
+    "component": "Core of Elemental Air",
+    "metatag": "Air Elemental"
+  },
+  {
+    "name": "Ring of Animal Influence",
+    "item": "Compendium.dnd5e.items.ElLfmohtIFMagr5f",
+    "rarity": "rare",
+    "price": 1500,
+    "component": "Beast Heart"
+  },
+  {
+    "name": "Ring of Djinni Summoning",
+    "item": "Compendium.dnd5e.items.hdlBOEbEjiwUjTW5",
+    "rarity": "legendary",
+    "price": 90000,
+    "component": "Core of Elemental Air",
+    "metatag": "Djinni"
+  },
+  {
+    "name": "Ring of Earth Elemental Command",
+    "item": "Compendium.dnd5e.items.Zf7kBZa5f4WBepn1",
+    "rarity": "legendary",
+    "price": 35000,
+    "component": "Core of Elemental Earth",
+    "metatag": "Earth Elemental"
+  },
+  {
+    "name": "Ring of Evasion",
+    "item": "Compendium.dnd5e.items.2wxqnjpnPmkpPCC5",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Pouch of Fey Feathers"
+  },
+  {
+    "name": "Ring of Feather Falling",
+    "item": "Compendium.dnd5e.items.JyYwliYiWEw2g0yJ",
+    "rarity": "rare",
+    "price": 2100,
+    "component": "Pouch of Beast Feathers"
+  },
+  {
+    "name": "Ring of Fire Elemental Command",
+    "item": "Compendium.dnd5e.items.L9KBLub5vfb3mTDz",
+    "rarity": "legendary",
+    "price": 35000,
+    "component": "Core of Elemental Fire",
+    "metatag": "Fire Elemental"
+  },
+  {
+    "name": "Ring of Free Action",
+    "item": "Compendium.dnd5e.items.i2puCDRaTxkuFfB4",
+    "rarity": "veryRare",
+    "price": 16000,
+    "component": "Bundle of Plant Roots"
+  },
+  {
+    "name": "Ring of Invisibility",
+    "item": "Compendium.dnd5e.items.1J0dsxyKRhVXYQf5",
+    "rarity": "legendary",
+    "price": 32000,
+    "component": "Elemental Primordial Dust",
+    "metatag": "Invisible Stalker"
+  },
+  {
+    "name": "Ring of Jumping",
+    "item": "Compendium.dnd5e.items.x7LfMrLafLKfemGH",
+    "rarity": "uncommon",
+    "price": 1000,
+    "component": "Beast Bone",
+    "metatag": "Frog or Toad"
+  },
+  {
+    "name": "Ring of Mind Shielding",
+    "item": "Compendium.dnd5e.items.dGnkwePemh7ovuDv",
+    "rarity": "uncommon",
+    "price": 1600,
+    "component": "Aberration Main Eye"
+  },
+  {
+    "name": "Ring of Protection",
+    "item": "Compendium.dnd5e.items.QtmVEreNIWEVOoLR",
+    "rarity": "rare",
+    "price": 3500,
+    "component": "Construct Plating"
+  },
+  {
+    "name": "Ring of Regeneration",
+    "item": "Compendium.dnd5e.items.AweD4kpKGM7Ilu3n",
+    "rarity": "veryRare",
+    "price": 12000,
+    "component": "Plant Membrane"
+  },
+  {
+    "name": "Ring of Resistance",
+    "rarity": "uncommon",
+    "component": "Dragon Eye",
+    "variants": [
+      {
+        "item": "Compendium.dnd5e.items.WO8DLfz3G2QZ5njs",
+        "price": 1200,
+        "metatag": "(Dragon with Acid Immunity)"
+      },
+      {
+        "item": "Compendium.dnd5e.items.fvezXwRJ5PqUf5NN",
+        "price": 4000,
+        "metatag": "(Dragon with Cold Immunity)"
+      },
+      {
+        "item": "Compendium.dnd5e.items.3X7vdOjnCSpi40yn",
+        "price": 1500,
+        "metatag": "(Dragon with Fire Immunity)"
+      },
+      {
+        "item": "Compendium.dnd5e.items.ScxK8YNU5dWELhlQ",
+        "price": 1200,
+        "metatag": "(Dragon with Force Immunity)"
+      },
+      {
+        "item": "Compendium.dnd5e.items.XJ8CG4UvLELCmOi2",
+        "price": 1200,
+        "metatag": "(Dragon with Lightning Immunity)"
+      },
+      {
+        "item": "Compendium.dnd5e.items.qMGkmzfLHfXd7DiJ",
+        "price": 1200,
+        "metatag": "(Dragon with Necrotic Immunity)"
+      },
+      {
+        "item": "Compendium.dnd5e.items.5SorTMl8NKDO9Yge",
+        "price": 1500,
+        "metatag": "(Dragon with Poison Immunity)"
+      },
+      {
+        "item": "Compendium.dnd5e.items.Q7E6MgPzVkwBeZ6l",
+        "price": 1100,
+        "metatag": "(Dragon with Psychic Immunity)"
+      },
+      {
+        "item": "Compendium.dnd5e.items.IrC5LPbWNxlAQoK7",
+        "price": 1100,
+        "metatag": "(Dragon with Radiant Immunity)"
+      },
+      {
+        "item": "Compendium.dnd5e.items.IpBBqr0r7JanyVn0",
+        "price": 1100,
+        "metatag": "(Dragon with Thunder Immunity)"
+      }
+    ]
+  },
+  {
+    "name": "Ring of Shooting Stars",
+    "item": "Compendium.dnd5e.items.etA2SBgWwduCLgLT",
+    "rarity": "veryRare",
+    "price": 14000,
+    "component": "Aberration Antenna"
+  },
+  {
+    "name": "Ring of Spell Storing",
+    "item": "Compendium.dnd5e.items.9cIlRtKDtDXQtElf",
+    "rarity": "rare",
+    "price": 8000,
+    "component": "Fey Bone"
+  },
+  {
+    "name": "Ring of Spell Turning",
+    "item": "Compendium.dnd5e.items.8PI1EL8xHLq4tXKr",
+    "rarity": "legendary",
+    "price": 50000,
+    "component": "Fiend Skin",
+    "metatag": "Rakshasa"
+  },
+  {
+    "name": "Ring of Swimming",
+    "item": "Compendium.dnd5e.items.aA7MbjnpHYoYvmuW",
+    "rarity": "uncommon",
+    "price": 1800,
+    "component": "Beast Fin"
+  },
+  {
+    "name": "Ring of Telekinesis",
+    "item": "Compendium.dnd5e.items.hxfOtvFrY1PXHQN1",
+    "rarity": "veryRare",
+    "price": 25000,
+    "component": "Aberration Brain",
+    "metatag": "Dreamholder"
+  },
+  {
+    "name": "Ring of the Ram",
+    "item": "Compendium.dnd5e.items.qw05Om9XWqTMoio2",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Beast Horn",
+    "metatag": "Goat or Sheep"
+  },
+  {
+    "name": "Ring of Three Wishes",
+    "item": "Compendium.dnd5e.items.ewXgnWiYQhS8KArS",
+    "rarity": "legendary",
+    "price": 150000,
+    "component": "Humanoid Heart",
+    "metatag": "Halfling"
+  },
+  {
+    "name": "Ring of Warmth",
+    "item": "Compendium.dnd5e.items.2veAOEyfbDJuxR8Y",
+    "rarity": "uncommon",
+    "price": 4500,
+    "component": "Elemental Eye"
+  },
+  {
+    "name": "Ring of Water Elemental Command",
+    "item": "Compendium.dnd5e.items.HnIERWmmra74hSCw",
+    "rarity": "legendary",
+    "price": 35000,
+    "component": "Core of Elemental Water",
+    "metatag": "Water Elemental"
+  },
+  {
+    "name": "Ring of Water Walking",
+    "item": "Compendium.dnd5e.items.LC5LsQOPwoHQW9Mi",
+    "rarity": "uncommon",
+    "price": 1500,
+    "component": "Beast Fat"
+  },
+  {
+    "name": "Ring of X-ray Vision",
+    "item": "Compendium.dnd5e.items.i3njMqHc689GvHDn",
+    "rarity": "rare",
+    "price": 6000,
+    "component": "Aberration Eye"
+  },
+  {
+    "name": "Immovable Rod",
+    "item": "Compendium.dnd5e.items.eQNXan0zp279jDtk",
+    "rarity": "uncommon",
+    "price": 2000,
+    "component": "Beast Bone"
+  },
+  {
+    "name": "Rod of Absorption",
+    "item": "Compendium.dnd5e.items.6pjaQzbtxQTuQ4RW",
+    "rarity": "legendary",
+    "price": 41600,
+    "component": "Construct Stone"
+  },
+  {
+    "name": "Rod of Alertness",
+    "item": "Compendium.dnd5e.items.Do3qeSHtBjUsmfvz",
+    "rarity": "veryRare",
+    "price": 25000,
+    "component": "Fey Eye"
+  },
+  {
+    "name": "Rod of Lordly Might",
+    "item": "Compendium.dnd5e.items.d5HNCmLIPCpPoX2w",
+    "rarity": "legendary",
+    "price": 35000,
+    "component": "Pouch of Fiend Teeth",
+    "metatag": "Pit Fiend"
+  },
+  {
+    "name": "Rod of Rulership",
+    "item": "Compendium.dnd5e.items.vmbB2SK6pQU2Vkzb",
+    "rarity": "rare",
+    "price": 6000,
+    "component": "Pouch of Fiend Dust",
+    "metatag": "Incubus or Sucubus"
+  },
+  {
+    "name": "Rod of Security",
+    "item": "Compendium.dnd5e.items.9kfMsSweOBui0SC4",
+    "rarity": "veryRare",
+    "price": 20000,
+    "component": "Celestial Horn",
+    "metatag": "Unicorn"
+  },
+  {
+    "name": "Staff of Charming",
+    "item": "Compendium.dnd5e.items.FeouSUPUlUhfgeRp",
+    "rarity": "rare",
+    "price": 6000,
+    "component": "Fiend Heart",
+    "metatag": "Incubus or Sucubus"
+  },
+  {
+    "name": "Staff of Fire",
+    "item": "Compendium.dnd5e.items.lsiR1hVfISlC5YoB",
+    "rarity": "veryRare",
+    "price": 12000,
+    "component": "Volatile Mote of Elemental Fire",
+    "metatag": "Magma Mephit"
+  },
+  {
+    "name": "Staff of Frost",
+    "item": "Compendium.dnd5e.items.xEtBeZjJnkDXojQM",
+    "rarity": "veryRare",
+    "price": 12000,
+    "component": "Volatile Mote of Elemental Water",
+    "metatag": "Ice Mephit"
+  },
+  {
+    "name": "Staff of Healing",
+    "item": "Compendium.dnd5e.items.WLVQJVpCWiPkCAtZ",
+    "rarity": "veryRare",
+    "price": 6000,
+    "component": "Celestial Horn",
+    "metatag": "Unicorn"
+  },
+  {
+    "name": "Staff of Power",
+    "item": "Compendium.dnd5e.items.eM5gEe4SEOvA2Y9t",
+    "rarity": "legendary",
+    "price": 65000,
+    "component": "Giant Heart",
+    "metatag": "Storm"
+  },
+  {
+    "name": "Staff of Striking",
+    "item": "Compendium.dnd5e.items.URun3vYrXKJJdAJe",
+    "rarity": "veryRare",
+    "price": 12000,
+    "component": "Fey Psyche",
+    "metatag": "Sprite"
+  },
+  {
+    "name": "Staff of Swarming Insects",
+    "item": "Compendium.dnd5e.items.bod1dKzbAkAm21Ho",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Beast Stinger",
+    "metatag": "Beetle or Insect"
+  },
+  {
+    "name": "Staff of Thunder and Lightning",
+    "item": "Compendium.dnd5e.items.F6v3Q7dz1SlpLTMf",
+    "rarity": "veryRare",
+    "price": 10000,
+    "component": "Volatile Mote of Elemental Air",
+    "metatag": "Djinni"
+  },
+  {
+    "name": "Staff of Withering",
+    "item": "Compendium.dnd5e.items.uHL99JKLUpTKAbz8",
+    "rarity": "rare",
+    "price": 2500,
+    "component": "Undead Bone",
+    "metatag": "Wight"
+  },
+  {
+    "name": "Staff of the Magi",
+    "item": "Compendium.dnd5e.items.l3V7V8VCXpmAAysQ",
+    "rarity": "artifact",
+    "price": 4000000,
+  "component": "Monstrosity Tentacle",
+    "metatag": "Kraken"
+  },
+  {
+    "name": "Staff of the Python",
+    "item": "Compendium.dnd5e.items.MOeFq5MLAQzVQC7z",
+    "rarity": "uncommon",
+    "price": 1200,
+    "component": "Pouch of Beast Scales",
+    "metatag": "Snake"
+  },
+  {
+    "name": "Staff of the Woodlands",
+    "item": "Compendium.dnd5e.items.caEn3ixCUFBnHTx6",
+    "rarity": "veryRare",
+    "price": 22000,
+    "component": "Bundle of Plant Roots",
+    "metatag": "Dryad"
+  },
+  {
+    "name": "+1 Wand of the War Mage",
+    "item": "Compendium.dnd5e.items.OPbdSlrhkUDNpgcS",
+    "rarity": "uncommon",
+    "price": 750,
+    "component": "Aberration Bone"
+  },
+  {
+    "name": "+2 Wand of the War Mage",
+    "item": "Compendium.dnd5e.items.k3T7tpcdzDyVKlF4",
+    "rarity": "rare",
+    "price": 1500,
+    "component": "Aberration Bone"
+  },
+  {
+    "name": "+3 Wand of the War Mage",
+    "item": "Compendium.dnd5e.items.IuVaBrq17AqxpXc4",
+    "rarity": "veryRare",
+    "price": 6200,
+    "component": "Aberration Bone"
+  },
+  {
+    "name": "Wand of Binding",
+    "item": "Compendium.dnd5e.items.7jEKkA9qbwJ3IuCb",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Pouch of Plant Hyphae",
+    "metatag": "Shambling Mound"
+  },
+  {
+    "name": "Wand of Enemy Detection",
+    "item": "Compendium.dnd5e.items.5Rxo4K9cgpwgW9vZ",
+    "rarity": "uncommon",
+    "price": 1200,
+    "component": "Monstrosity Antenna",
+    "metatag": "Ankheg"
+  },
+  {
+    "name": "Wand of Fear",
+    "item": "Compendium.dnd5e.items.EJFql4aNWHHJSxT9",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Undead Ethereal Ichor",
+    "metatag": "Ghost"
+  },
+  {
+    "name": "Wand of Fireballs",
+    "item": "Compendium.dnd5e.items.DoSvjhRARhRqWZXg",
+    "rarity": "veryRare",
+    "price": 25000,
+    "component": "Volatile Mote of Elemental Fire",
+    "metatag": "Fire Elemental"
+  },
+  {
+    "name": "Wand of Lightning Bolts",
+    "item": "Compendium.dnd5e.items.bPFVfq81EsMNu6OQ",
+    "rarity": "veryRare",
+    "price": 25000,
+    "component": "Volatile Mote of Elemental Air",
+    "metatag": "Air Elemental"
+  },
+  {
+    "name": "Wand of Magic Detection",
+    "item": "Compendium.dnd5e.items.18fbyArtidKzON01",
+    "rarity": "uncommon",
+    "price": 600,
+    "component": "Monstrosity Eye",
+    "metatag": "Sphinx"
+  },
+  {
+    "name": "Wand of Magic Missiles",
+    "item": "Compendium.dnd5e.items.1taRIMF9w7jpnonN",
+    "rarity": "uncommon",
+    "price": 900,
+    "component": "Phial of Monstrosity Blood"
+  },
+  {
+    "name": "Wand of Paralysis",
+    "item": "Compendium.dnd5e.items.GcpXNc4dKUNw0Tk6",
+    "rarity": "veryRare",
+    "price": 10000,
+  "component": "Monstrosity Stinger",
+    "metatag": "Phase Spider"
+  },
+  {
+    "name": "Wand of Polymorph",
+    "item": "Compendium.dnd5e.items.khyjT3dKyoEOf4eA",
+    "rarity": "veryRare",
+    "price": 20000,
+    "component": "Monstrosity Flesh",
+    "metatag": "Mimic"
+  },
+  {
+    "name": "Wand of Secrets",
+    "item": "Compendium.dnd5e.items.VQ6NWjWV37wiB29O",
+    "rarity": "uncommon",
+    "price": 600,
+    "component": "Beast Antenna",
+    "metatag": "(Has Blindsight)"
+  },
+  {
+    "name": "Wand of Web",
+    "item": "Compendium.dnd5e.items.4sR5HOah6KwVPHOb",
+    "rarity": "rare",
+    "price": 4000,
+    "component": "Beast Poison Gland",
+    "metatag": "Spider"
+  },
+  {
+    "name": "Wand of Wonder",
+    "item": "Compendium.dnd5e.items.lPsueMv4ZoXqCYf9",
+    "rarity": "rare",
+    "price": 4000,
+    "component": "Fey Heart"
+  },
+  {
+    "name": "Vorpal Sword",
+    "item": [
+      "Compendium.dnd5e.items.3FNyS6DeCBZzFbqU",
+      "Compendium.dnd5e.items.HokQ1loVJTFxt27u",
+      "Compendium.dnd5e.items.I7cOsXsklWkzouHA"
+    ],
+    "rarity": "legendary",
+    "price": 24000,
+  "component": "Pouch of Monstrosity Teeth"
+  },
+  {
+    "name": "Dagger of Venom",
+    "item": "Compendium.dnd5e.items.7i4s9msZWpAw4Ynv",
+    "rarity": "rare",
+    "price": 1900,
+    "component": "Fiend Poison Gland",
+    "metatag": "Vrock"
+  },
+  {
+    "name": "+1 Weapon",
+    "item": [
+      "Compendium.dnd5e.items.UAXu4MNvAvaKz9JO",
+      "Compendium.dnd5e.items.N8XNP3vjVZmM2r9S",
+      "Compendium.dnd5e.items.fCRftM4QxEDkeu0a",
+      "Compendium.dnd5e.items.59pjg8FGM4GG4Fdd",
+      "Compendium.dnd5e.items.giU3yyZXvErjf78D",
+      "Compendium.dnd5e.items.0LVFLPmsu1b2vf8E",
+      "Compendium.dnd5e.items.09i8r1UmzDSKiZ9g",
+      "Compendium.dnd5e.items.qhdGVfT5j6u46mtk",
+      "Compendium.dnd5e.items.dwGxrGqkn2ppNaqs",
+      "Compendium.dnd5e.items.kBVK2IiZYRkEYtcM",
+      "Compendium.dnd5e.items.nl7cc7Z1HpSHbUdQ",
+      "Compendium.dnd5e.items.MnX9soPEMNsCtpv7",
+      "Compendium.dnd5e.items.Qfi5Rsuun3reqYmf",
+      "Compendium.dnd5e.items.ijDzcDXfJAdj2uED",
+      "Compendium.dnd5e.items.idtlcnIWgwVdvp31",
+      "Compendium.dnd5e.items.l88FXiodYofrJT8a",
+      "Compendium.dnd5e.items.kHjpHTKex95ULxUX",
+      "Compendium.dnd5e.items.q24QnImAicnT9Byd",
+      "Compendium.dnd5e.items.A2i08i8gAFscm6hZ",
+      "Compendium.dnd5e.items.IPkf0XNowClwXnjQ",
+      "Compendium.dnd5e.items.jf0XMx2vfEZzZuD7",
+      "Compendium.dnd5e.items.EveBprZPBjfZqXLt",
+      "Compendium.dnd5e.items.PKpftwMAn88gfLi7",
+      "Compendium.dnd5e.items.rJKXDPikXSYXYgb5",
+      "Compendium.dnd5e.items.yoFff2zdTloKx1if",
+      "Compendium.dnd5e.items.t8L7B0JWamsvxhui",
+      "Compendium.dnd5e.items.S7AhpCPDBGUBbg7b",
+      "Compendium.dnd5e.items.VGtyTdVLoWls8FL5",
+      "Compendium.dnd5e.items.gYDMk3LWikIP5PmA",
+      "Compendium.dnd5e.items.sl6yiYSlqkHiVVSN",
+      "Compendium.dnd5e.items.asUgQFrF1xYeNhtW",
+      "Compendium.dnd5e.items.6I5lt8KheTsAE4Zr",
+      "Compendium.dnd5e.items.WNdN2mBF3O7ZNcMp",
+      "Compendium.dnd5e.items.vuThcmO7MYlw5b9f",
+      "Compendium.dnd5e.items.l2T46xCqUbJvKE7A",
+      "Compendium.dnd5e.items.8N1GqcdroUpmM9dS",
+      "Compendium.dnd5e.items.lcqqW2vGF6P8nJ77"
+    ],
+    "rarity": "uncommon",
+    "price": 750,
+    "component": "Pouch of Beast Claws"
+  },
+  {
+    "name": "+2 Weapon",
+    "item": [
+      "Compendium.dnd5e.items.cQ94oKUZN8FDAI8U",
+      "Compendium.dnd5e.items.fu7DJcrYWfGMeVt9",
+      "Compendium.dnd5e.items.gyJ0imAckcWtCjyv",
+      "Compendium.dnd5e.items.Lr8aRsnia8hftPAb",
+      "Compendium.dnd5e.items.EWdfUQriSabqDESm",
+      "Compendium.dnd5e.items.z0lIRURcyDYt1kLK",
+      "Compendium.dnd5e.items.Mt2WB1W9nDWO4d16",
+      "Compendium.dnd5e.items.hdUzXzVPonOQzW81",
+      "Compendium.dnd5e.items.Or3kVfJ0Fbr33ARS",
+      "Compendium.dnd5e.items.8LZBOY5USLZ4ngDq",
+      "Compendium.dnd5e.items.6ndqUhOySYVVQ5on",
+      "Compendium.dnd5e.items.3Q6rw9kAMf6F1SW5",
+      "Compendium.dnd5e.items.LZcpcR21nte4Yoe2",
+      "Compendium.dnd5e.items.8wXB18E0oPAYFkqc",
+      "Compendium.dnd5e.items.gV671PZGnYoVZefN",
+      "Compendium.dnd5e.items.CVMGOJWTO6TCybrH",
+      "Compendium.dnd5e.items.x12sDhylcf8843fT",
+      "Compendium.dnd5e.items.XIpJkxbySJxm6hoU",
+      "Compendium.dnd5e.items.ZcvU9rRb573NOywv",
+      "Compendium.dnd5e.items.bcv7J9culilK68zp",
+      "Compendium.dnd5e.items.m1hJnK7CHsaJB26v",
+      "Compendium.dnd5e.items.1kihEfn9QppB34ee",
+      "Compendium.dnd5e.items.NrHboku9vJO5FGiY",
+      "Compendium.dnd5e.items.hHX5qXva1ScCpBpL",
+      "Compendium.dnd5e.items.qcEiSj67zfbLvYdJ",
+      "Compendium.dnd5e.items.7kVZo4DLBq22406E",
+      "Compendium.dnd5e.items.uLY74ppOrTaWKwer",
+      "Compendium.dnd5e.items.VHYy3ZsJNPUo1SIx",
+      "Compendium.dnd5e.items.tt4WokZBZMGqgYm5",
+      "Compendium.dnd5e.items.b2l2ubCGSnmiTrm8",
+      "Compendium.dnd5e.items.uRoHwk1c8e5xJjkV",
+      "Compendium.dnd5e.items.9qOAoFw9dTXhJ1w0",
+      "Compendium.dnd5e.items.HeDP6dL9daVT3uj2",
+      "Compendium.dnd5e.items.EkTpM4Wbsrdqflzl",
+      "Compendium.dnd5e.items.RbC0UCqAnQcIPIXZ",
+      "Compendium.dnd5e.items.KvIlZssYEtQ4bvSE",
+      "Compendium.dnd5e.items.WlPzuxaVnYzxzDEC"
+    ],
+    "rarity": "rare",
+    "price": 1500,
+    "component": "Pouch of Monstrosity Claws"
+  },
+  {
+    "name": "+3 Weapon",
+    "item": [
+      "Compendium.dnd5e.items.kNlvoSTcdMqxJPmI",
+      "Compendium.dnd5e.items.HQJ8tiyyrJJSUSyF",
+      "Compendium.dnd5e.items.HdC66U61pDOknaux",
+      "Compendium.dnd5e.items.bWI5i4RbyGKT6Eiq",
+      "Compendium.dnd5e.items.izF3kmyFEVI5TWhp",
+      "Compendium.dnd5e.items.wgBKZNeRN1XsE9I7",
+      "Compendium.dnd5e.items.rc9nkN6YOD7ogtEi",
+      "Compendium.dnd5e.items.PAa2EG5kzmqxcp46",
+      "Compendium.dnd5e.items.mkyltDYnuzNU3kmF",
+      "Compendium.dnd5e.items.RfEZvwcLwe6Ih0LQ",
+      "Compendium.dnd5e.items.EU78dSbnr91QWZ7g",
+      "Compendium.dnd5e.items.oG4rvCuMstgl4Nez",
+      "Compendium.dnd5e.items.cmnBssaWWzWWm70C",
+      "Compendium.dnd5e.items.Sj4zEvuGcSV6anKm",
+      "Compendium.dnd5e.items.FhtjbeBeP4q5vTyc",
+      "Compendium.dnd5e.items.r97KnMO7Zxgfdh3P",
+      "Compendium.dnd5e.items.amRx3jOYlPeXEiAN",
+      "Compendium.dnd5e.items.Y08Al2dMN8he1hFK",
+      "Compendium.dnd5e.items.8W6ULfSqzuHh6Peg",
+      "Compendium.dnd5e.items.H6SIiRIig7OMM2Z0",
+      "Compendium.dnd5e.items.2CQnAvn06bncXPBt",
+      "Compendium.dnd5e.items.P8f9o36qxagW2uRW",
+      "Compendium.dnd5e.items.dghpiMWDSUXtQf6X",
+      "Compendium.dnd5e.items.iIuNqnpWCHrLEKWj",
+      "Compendium.dnd5e.items.3YH1o1Wa4gcdN3fh",
+      "Compendium.dnd5e.items.BmWnprrj0QWQ1BL3",
+      "Compendium.dnd5e.items.YevPP0DZXgAcLmzv",
+      "Compendium.dnd5e.items.2wK9ImkAeG3Lzxa0",
+      "Compendium.dnd5e.items.egJhGFU3v5OfjPNS",
+      "Compendium.dnd5e.items.uIHXYhnOwETlA5lT",
+      "Compendium.dnd5e.items.AHn15T1TOuDFS0GH",
+      "Compendium.dnd5e.items.q3WqP3r2emnumyUF",
+      "Compendium.dnd5e.items.62EaozKvcA0aSy2q",
+      "Compendium.dnd5e.items.z9fFB1uaGJvcXTf7",
+      "Compendium.dnd5e.items.nrvAo3TznyQrHS1t",
+      "Compendium.dnd5e.items.setcTdSZ09rmsqMn",
+      "Compendium.dnd5e.items.jcQqI0pxLD2nNNQ4"
+    ],
+    "rarity": "veryRare",
+    "price": 6200,
+    "component": "Pouch of Dragon Claws"
+  },
+  {
+    "name": "Berserker Axe",
+    "item": [
+      "Compendium.dnd5e.items.dvNzJqb7vq6oJlA2",
+      "Compendium.dnd5e.items.zSKorO6lwT7vs2uk",
+      "Compendium.dnd5e.items.gwuffGC4JZ8BbStz"
+    ],
+    "rarity": "rare",
+    "price": 2100,
+    "component": "Fiend Bone"
+  },
+  {
+    "name": "Dancing Sword",
+    "item": [
+      "Compendium.dnd5e.items.zWSB0NCllWaSVoNT",
+      "Compendium.dnd5e.items.sIiUbRJItYAs5gtA",
+      "Compendium.dnd5e.items.6n8J07mFo8xs11vS",
+      "Compendium.dnd5e.items.kOYXMf4GTtD7OqbD",
+      "Compendium.dnd5e.items.stlFCpqW3ZuAftTi"
+    ],
+    "rarity": "rare",
+    "price": 2100,
+    "component": "Construct Lifespark",
+    "metatag": "Flying Sword"
+  },
+  {
+    "name": "Defender",
+    "item": [
+      "Compendium.dnd5e.items.nSNhjX5F7f86AW1a",
+      "Compendium.dnd5e.items.ukcKemEoTTRB9yLC",
+      "Compendium.dnd5e.items.YrkkHa6KN8a9o35k",
+      "Compendium.dnd5e.items.Ilyv71AeobM6AvIn",
+      "Compendium.dnd5e.items.d58CvI0Fiav9Jjt1"
+    ],
+    "rarity": "legendary",
+    "price": 24000,
+    "component": "Construct Lifespark"
+  },
+  {
+    "name": "Dragon Slayer",
+    "item": [
+      "Compendium.dnd5e.items.orHjq3XDPz4eXcov",
+      "Compendium.dnd5e.items.SXjs8JghAPBv7d6j",
+      "Compendium.dnd5e.items.S7TrIOlE600KIOUx",
+      "Compendium.dnd5e.items.feKHv3JUWZdSNKf0",
+      "Compendium.dnd5e.items.MFd96UkSs5g9QO78"
+    ],
+    "rarity": "rare",
+    "price": 2400,
+    "component": "Dragon Heart"
+  },
+    {
+      "name": "Flame Tongue",
+      "item": [
+        "Compendium.dnd5e.items.WWb4vAmh18sMAxfY",
+        "Compendium.dnd5e.items.ducaFdrqwLZ0l3c7",
+        "Compendium.dnd5e.items.CoUFHk5keIihsbYL",
+        "Compendium.dnd5e.items.qVHCzgVvOZAtuk4N",
+        "Compendium.dnd5e.items.Z9FBwEoMi6daDGRj"
+      ],
+      "rarity": "veryRare",
+      "price": 9400,
+      "component": "Dragon Breath Sac",
+      "metatag": "(Dragon with Fire Immunity or Resistance)"
+    },
+  {
+    "name": "Frost Brand",
+    "item": [
+      "Compendium.dnd5e.items.ykB6UKv5BuQnSRSL",
+      "Compendium.dnd5e.items.NmZMx2u6bHpRyGUa",
+      "Compendium.dnd5e.items.efluRemOguW2YeZY",
+      "Compendium.dnd5e.items.07R6JFioylOCpVoL",
+      "Compendium.dnd5e.items.DT02xK1DzxLNlVaI"
+    ],
+    "rarity": "veryRare",
+    "price": 9400,
+    "component": "Dragon Breath Sac",
+    "metatag": "(Dragon with Cold Immunity or Resistance)"
+  },
+  {
+    "name": "Giant Slayer",
+    "item": [
+      "Compendium.dnd5e.items.YM6bZNmpync83VFa",
+      "Compendium.dnd5e.items.jmSC8I5awCoxNVv7",
+      "Compendium.dnd5e.items.nBFr5xTWeChM7xrb",
+      "Compendium.dnd5e.items.F3rQcaZvElNEiudk",
+      "Compendium.dnd5e.items.xw2kL7Puwg4wfjW3",
+      "Compendium.dnd5e.items.I5PWgE4IF40Iv9h4",
+      "Compendium.dnd5e.items.ZLpj1bpnWlAFUEHE",
+      "Compendium.dnd5e.items.tTqixDDmzAfs995G"
+    ],
+    "rarity": "rare",
+    "price": 2400,
+    "component": "Giant Heart"
+  },
+  {
+    "name": "Holy Avenger",
+    "item": [
+      "Compendium.dnd5e.items.FCxG64QUxsnF4Lis",
+      "Compendium.dnd5e.items.dZ9zWfhsIlabadKL",
+      "Compendium.dnd5e.items.kTxi62RTrrdrIBr9",
+      "Compendium.dnd5e.items.ULL5nkyN3WzazI4l",
+      "Compendium.dnd5e.items.bHbbIhbTzu4lYMRz"
+    ],
+    "rarity": "legendary",
+    "price": 150000,
+    "component": "Celestial Heart",
+    "metatag": "Solar"
+  },
+  {
+    "name": "Luck Blade",
+    "item": [
+      "Compendium.dnd5e.items.fWR9EFEjR0JtFdCC",
+      "Compendium.dnd5e.items.X6PHssSGnwiJRgcx",
+      "Compendium.dnd5e.items.qGH7YqWhi0tHisMi",
+      "Compendium.dnd5e.items.E7c4zpWdYgkKDHGo",
+      "Compendium.dnd5e.items.nL0Y0X8SjF58OmBM"
+    ],
+    "rarity": "legendary",
+    "price": 170000,
+    "component": "Fey Psyche"
+  },
+  {
+    "name": "Nine Lives Stealer",
+    "item": [
+      "Compendium.dnd5e.items.tFLmAPUDLxBY8jFO",
+      "Compendium.dnd5e.items.BefbYlWbRYyy6R8s",
+      "Compendium.dnd5e.items.OUGMoQYeJzxEcRvm",
+      "Compendium.dnd5e.items.9Mdes2tKt0cqsNTw",
+      "Compendium.dnd5e.items.2Lkub0qIwucWEfp3"
+    ],
+    "rarity": "veryRare",
+    "price": 9400,
+    "component": "Beast Heart",
+    "metatag": "Cat"
+  },
+  {
+    "name": "Sword of Life Stealing",
+    "item": [
+      "Compendium.dnd5e.items.sdHSbitJxgTX6aDG",
+      "Compendium.dnd5e.items.wtctR6tCcYbQPiS0",
+      "Compendium.dnd5e.items.p01JzD9RpIOkJiqK",
+      "Compendium.dnd5e.items.sfegfmo59MHJg2YC",
+      "Compendium.dnd5e.items.902yxeFDwavpm6cv"
+    ],
+    "rarity": "rare",
+    "price": 2100,
+    "component": "Undead Ethereal Ichor",
+    "metatag": "Wraith"
+  },
+  {
+    "name": "Sword of Sharpness",
+    "item": [
+      "Compendium.dnd5e.items.QB4CFMTLR6JlD7Kq",
+      "Compendium.dnd5e.items.8MNDhKb1Q87QszOJ",
+      "Compendium.dnd5e.items.ZKyhkS8ud2NpV7ng"
+    ],
+    "rarity": "rare",
+    "price": 2100,
+    "component": "Giant Tooth"
+  },
+  {
+    "name": "Sword of Wounding",
+    "item": [
+      "Compendium.dnd5e.items.JpwuGtFkfrGibQpP",
+      "Compendium.dnd5e.items.pG6dddIcb9NmPrdt",
+      "Compendium.dnd5e.items.KJYqNZgdkRwPmPMl",
+      "Compendium.dnd5e.items.L4PxYPtYca283sju",
+      "Compendium.dnd5e.items.SpbjbMMoJiva2zOa"
+    ],
+    "rarity": "rare",
+    "price": 2100,
+    "component": "Pouch of Humanoid Teeth"
+  },
+  {
+    "name": "Vicious Weapon",
+    "item": [
+      "Compendium.dnd5e.items.dG7iFak1YH1nXRpC",
+      "Compendium.dnd5e.items.ozYrQ5N4s81h35Fa",
+      "Compendium.dnd5e.items.UctSPehpKb4lJQGr",
+      "Compendium.dnd5e.items.5Jz5w7XJxgtlsx6K",
+      "Compendium.dnd5e.items.jeoZmDD9fuQdvC77",
+      "Compendium.dnd5e.items.qmuOeNsOKwkn6K8W",
+      "Compendium.dnd5e.items.eKip69fExSYN661B",
+      "Compendium.dnd5e.items.nY6CnKEHyJ5STgt5",
+      "Compendium.dnd5e.items.p9dtQU9wEZGumHSb",
+      "Compendium.dnd5e.items.FpLaviCom3XR1ckP",
+      "Compendium.dnd5e.items.isKR904LkLaH4i6M",
+      "Compendium.dnd5e.items.K7h4LT03SNt2807z",
+      "Compendium.dnd5e.items.QM3gdsL0eaAus7XT",
+      "Compendium.dnd5e.items.Fk78kNmp3OLX5EMC",
+      "Compendium.dnd5e.items.lM5uo6R4gy8rJG5Y",
+      "Compendium.dnd5e.items.r8yK6SrWOz4hqF01",
+      "Compendium.dnd5e.items.VQAUcjn1qdwW3MeU",
+      "Compendium.dnd5e.items.4MeSq8KcF7KK7emF",
+      "Compendium.dnd5e.items.gVo3UbvwjFIiFR0c",
+      "Compendium.dnd5e.items.pC3202gDTy8G5i4r",
+      "Compendium.dnd5e.items.gSwpQacBLOJeLWrK",
+      "Compendium.dnd5e.items.6JbrdSg5YYbs9ANm",
+      "Compendium.dnd5e.items.Vm6SuX6TkDvSIVGr",
+      "Compendium.dnd5e.items.zibIgdxPz8QHSCg6",
+      "Compendium.dnd5e.items.Z7xno2zMzRtqqUIQ",
+      "Compendium.dnd5e.items.h0XLhuUQ0vSnW3DU",
+      "Compendium.dnd5e.items.FHUDEygUW7EWCDgA",
+      "Compendium.dnd5e.items.Z0eO3TTpYA2hjwdd",
+      "Compendium.dnd5e.items.1PMaZR6CX8fUnOZd",
+      "Compendium.dnd5e.items.AChuumAYmts5uGFT",
+      "Compendium.dnd5e.items.qGRN4wvZLJ8uITf2",
+      "Compendium.dnd5e.items.e7JpVX2549vp9mgF",
+      "Compendium.dnd5e.items.TMqS62qjBCveT1Ss",
+      "Compendium.dnd5e.items.g8DG0jXlvfP3uTtZ",
+      "Compendium.dnd5e.items.HnJqfKkYXIWo2sp9",
+      "Compendium.dnd5e.items.luTJgPXN5n0EN7iy"
+    ],
+    "rarity": "uncommon",
+    "price": 350,
+    "component": "Pouch of Undead Teeth"
+  },
+  {
+    "name": "Javelin of Lightning",
+    "item": "Compendium.dnd5e.items.LEC1wkaAUnWzDPDD",
+    "rarity": "uncommon",
+    "price": 1200,
+    "component": "Elemental Primordial Dust"
+  },
+  {
+    "name": "Oathbow",
+    "item": "Compendium.dnd5e.items.mGIwk9FwTAJB6qTn",
+    "rarity": "veryRare",
+    "price": 9400,
+    "component": "Fey Tongue"
+  },
+  {
+    "name": "Sun Blade",
+    "item": "Compendium.dnd5e.items.yiYCqmD5n08NftYk",
+    "rarity": "veryRare",
+    "price": 12000,
+    "component": "Pouch of Celestial Dust"
+  },
+  {
+    "name": "Mace of Disruption",
+    "item": "Compendium.dnd5e.items.m7RubLd1lUcMjYgY",
+    "rarity": "rare",
+    "price": 7000,
+    "component": "Undead Marrow"
+  },
+  {
+    "name": "Mace of Smiting",
+    "item": "Compendium.dnd5e.items.w56FIjFafs2rN6iK",
+    "rarity": "rare",
+    "price": 4500,
+    "component": "Construct Bone"
+  },
+  {
+    "name": "Mace of Terror",
+    "item": "Compendium.dnd5e.items.b46t42bMruQf9v3O",
+    "rarity": "rare",
+    "price": 7000,
+    "component": "Monstrosity Bone"
+  },
+  {
+    "name": "Hammer of Thunderbolts",
+    "item": "Compendium.dnd5e.items.wGDDt17DpBcXPuUD",
+    "rarity": "veryRare",
+    "price": 16000,
+    "component": "Giant Bone",
+    "metatag": "Storm"
+  },
+  {
+    "name": "Scimitar of Speed",
+    "item": "Compendium.dnd5e.items.7wY0389wscheFkIa",
+    "rarity": "veryRare",
+    "price": 9400,
+    "component": "Pouch of Fey Feathers"
+  },
+  {
+    "name": "Trident of Fish Command",
+    "item": "Compendium.dnd5e.items.o4Irx3hHiD3FnPbL",
+    "rarity": "uncommon",
+    "price": 700,
+    "component": "Beast Tentacle"
+  },
+  {
+    "name": "Dwarven Thrower",
+    "item": "Compendium.dnd5e.items.kvD4ElYCfCKpjDeg",
+    "rarity": "veryRare",
+    "price": 18000,
+    "component": "Giant Tooth",
+    "metatag": "Stone"
+  },
+  {
+    "name": "Amulet of Health",
+    "item": "Compendium.dnd5e.items.iiQxTvDOhPGW5spF",
+    "rarity": "rare",
+    "price": 7000,
+    "component": "Beast Heart",
+    "metatag": "Mammoth"
+  },
+  {
+    "name": "Amulet of Proof against Detection and Location",
+    "item": "Compendium.dnd5e.items.50N8zf58FR4JWR05",
+    "rarity": "uncommon",
+    "price": 1000,
+    "component": "Fey Antenna"
+  },
+  {
+    "name": "Amulet of the Planes",
+    "item": "Compendium.dnd5e.items.8ABk0XV76Hzq8Qul",
+    "rarity": "veryRare",
+    "price": 20000,
+    "component": "Fiend Soul"
+  },
+  {
+    "name": "Apparatus of the Crab",
+    "item": "Compendium.dnd5e.items.lSd5QHnIJbKvP1bh",
+    "rarity": "veryRare",
+    "price": 12000,
+    "component": "Construct Brain"
+  },
+  {
+    "name": "Bag of Beans",
+    "item": "Compendium.dnd5e.items.F8QpasPjLrw2POzE",
+    "rarity": "rare",
+    "price": 2000,
+    "component": "Phial of Plant Sap"
+  },
+  {
+    "name": "Bag of Devouring",
+    "item": "Compendium.dnd5e.items.YG9QW0flem4SLL6A",
+    "rarity": "veryRare",
+    "price": 6500,
+    "component": "Monstrosity Pelt"
+  },
+  {
+    "name": "Bag of Holding",
+    "item": "Compendium.dnd5e.items.aDHRuUs29SrumWfq",
+    "rarity": "uncommon",
+    "price": 2500,
+    "component": "Aberration Hide"
+  },
+  {
+    "name": "Bag of Tricks",
+    "item": [
+      "Compendium.dnd5e.items.9Ifr8fGvJ1bArzOW",
+      "Compendium.dnd5e.items.DxIdfGoJEYQj8o3D",
+      "Compendium.dnd5e.items.LHaqMvrx3PfSzWMQ"
+    ],
+    "rarity": "uncommon",
+    "price": 500,
+    "component": "Fey Skin"
+  },
+  {
+    "name": "Bead of Force",
+    "item": "Compendium.dnd5e.items.SqTtbBCfiEsmZ36N",
+    "rarity": "rare",
+    "price": 960,
+    "component": "Construct Lifespark"
+  },
+  {
+    "name": "Belt of Dwarvenkind",
+    "item": "Compendium.dnd5e.items.j2ZGEwx8MhHZXds4",
+    "rarity": "veryRare",
+    "price": 9500,
+    "component": "Monstrosity Pelt"
+  },
+  {
+    "name": "Belt of Giant Strength",
+    "component": "Giant Skin",
+    "variants": [
+      {
+        "item": "Compendium.dnd5e.items.bq9YKwEHLQ7p7ric",
+        "price": 24000,
+        "rarity": "veryRare",
+        "metatag": "Fire"
+      },
+      {
+        "item": "Compendium.dnd5e.items.ORKf6RRcalrdD6Qp",
+        "price": 16000,
+        "rarity": "veryRare",
+        "metatag": "Frost"
+      },
+      {
+        "item": "Compendium.dnd5e.items.ER75WHewYN04Zp11",
+        "price": 8000,
+        "rarity": "rare",
+        "metatag": "Hill"
+      },
+      {
+        "item": "Compendium.dnd5e.items.fCUZ7h8YYrs16UhX",
+        "price": 16000,
+        "rarity": "veryRare",
+        "metatag": "Stone"
+      },
+      {
+        "item": "Compendium.dnd5e.items.wBYmPQG3nZfD88aP",
+        "price": 96000,
+        "rarity": "legendary",
+        "metatag": "Storm"
+      }
+    ]
+  },
+  {
+    "name": "Boots of Elvenkind",
+    "item": "Compendium.dnd5e.items.KKWBLKQIWHtcpymp",
+    "rarity": "uncommon",
+    "price": 2500,
+    "component": "Plant Bark"
+  },
+  {
+    "name": "Boots of Levitation",
+    "item": "Compendium.dnd5e.items.HLhFCDGfI8EK7uV9",
+    "rarity": "rare",
+    "price": 4000,
+    "component": "Fey Skin"
+  },
+  {
+    "name": "Boots of Speed",
+    "item": "Compendium.dnd5e.items.MCMSZrhcD40oMJ9v",
+    "rarity": "rare",
+    "price": 4000,
+    "component": "Fey Pelt"
+  },
+  {
+    "name": "Boots of Striding and Springing",
+    "item": "Compendium.dnd5e.items.hSY1b8yi8JWw2blf",
+    "rarity": "uncommon",
+    "price": 1800,
+    "component": "Construct Gears"
+  },
+  {
+    "name": "Boots of the Winterlands",
+    "item": "Compendium.dnd5e.items.RDPFmUR9exTEXFc8",
+    "rarity": "uncommon",
+    "price": 2000,
+    "component": "Beast Pelt"
+  },
+  {
+    "name": "Bowl of Commanding Water Elementals",
+    "item": "Compendium.dnd5e.items.rRMaaGZ7qbzqMvoI",
+    "rarity": "rare",
+    "price": 3200,
+    "component": "Core of Elemental Water"
+  },
+  {
+    "name": "Bracers of Archery",
+    "item": "Compendium.dnd5e.items.ZYEqOSY9BLZs2GPx",
+    "rarity": "rare",
+    "price": 1500,
+    "component": "Monstrosity Pelt"
+  },
+  {
+    "name": "Bracers of Defense",
+    "item": "Compendium.dnd5e.items.DSHi7yT6OUyDoCcu",
+    "rarity": "rare",
+    "price": 6000,
+    "component": "Monstrosity Chitin"
+  },
+  {
+    "name": "Brazier of Commanding Fire Elementals",
+    "item": "Compendium.dnd5e.items.OcjcplcUWH07Kn9k",
+    "rarity": "rare",
+    "price": 3200,
+    "component": "Core of Elemental Fire",
+    "metatag": "Efreefi"
+  },
+  {
+    "name": "Brooch of Shielding",
+    "item": "Compendium.dnd5e.items.ZdcEtbtU3VkuxIFE",
+    "rarity": "uncommon",
+    "price": 1500,
+    "component": "Pouch of Monstrosity Scales"
+  },
+  {
+    "name": "Broom of Flying",
+    "item": "Compendium.dnd5e.items.hFAVm9pTJDm0nu3g",
+    "rarity": "veryRare",
+    "price": 8000,
+    "component": "Bundle of Plant Roots"
+  },
+  {
+    "name": "Candle of Invocation",
+    "item": "Compendium.dnd5e.items.ZoUVmRA3HfAK2eZy",
+    "rarity": "veryRare",
+    "price": 5600,
+    "variants": [
+      {
+        "mod": "Good",
+        "component": "Celestial Fat"
+      },
+      {
+        "mod": "Evil",
+        "component": "Fiend Fat"
+      }
+    ]
+  },
+  {
+    "name": "Cape of the Mountebank",
+    "item": "Compendium.dnd5e.items.gpHgWLsD8k2yzbfR",
+    "rarity": "rare",
+    "price": 1600,
+    "component": "Monstrosity Pelt"
+  },
+  {
+    "name": "Carpet of Flying",
+    "rarity": "veryRare",
+    "component": "Bundle of Plant Roots",
+    "variants": [
+      {
+        "item": "Compendium.dnd5e.items.XwqNHyox5OQQio8q",
+        "price": 8000
+      },
+      {
+        "item": "Compendium.dnd5e.items.DeK9uQvNJj3JzFwe",
+        "price": 10000
+      },
+      {
+        "item": "Compendium.dnd5e.items.XAr1SR4POx5BAArk",
+        "price": 12000
+      },
+      {
+        "item": "Compendium.dnd5e.items.TjWk2mpNXjDdfIDM",
+        "price": 16000
+      }
+    ]
+  },
+  {
+    "name": "Censer of Controlling Air Elementals",
+    "item": "Compendium.dnd5e.items.sXEkkTDXWQDUMzsC",
+    "rarity": "rare",
+    "price": 3200,
+    "component": "Core of Elemental Air",
+    "metatag": "Djinni"
+  },
+  {
+    "name": "Chime of Opening",
+    "item": "Compendium.dnd5e.items.vZdLYfHlLcZqQ8zc",
+    "rarity": "rare",
+    "price": 1500,
+    "component": "Humanoid Bone"
+  },
+  {
+    "name": "Circlet of Blasting",
+    "item": "Compendium.dnd5e.items.9UvWQTY5yIgkJmmb",
+    "rarity": "uncommon",
+    "price": 360,
+    "component": "Monstrosity Antler"
+  },
+  {
+    "name": "Cloak of Arachnida",
+    "item": "Compendium.dnd5e.items.VwJjuNbBf2KHMPrY",
+    "rarity": "veryRare",
+    "price": 9400,
+    "component": "Beast Chitin",
+    "metatag": "Giant Spider"
+  },
+  {
+    "name": "Cloak of Displacement",
+    "item": "Compendium.dnd5e.items.LpD064ilKEeFzVI8",
+    "rarity": "legendary",
+    "price": 60000,
+    "component": "Monstrosity Pelt"
+  },
+  {
+    "name": "Cloak of Elvenkind",
+    "item": "Compendium.dnd5e.items.Jvf1NWFxcjfHnMQ5",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Phial of Plant Sap"
+  },
+  {
+    "name": "Cloak of Protection",
+    "item": "Compendium.dnd5e.items.lvaMqEhfidfHDGf5",
+    "rarity": "rare",
+    "price": 3500,
+    "component": "Beast Chitin"
+  },
+  {
+    "name": "Cloak of the Bat",
+    "item": "Compendium.dnd5e.items.Aq1rhgcgFnwu2T4I",
+    "rarity": "rare",
+    "price": 6000,
+    "component": "Beast Pelt",
+    "metatag": "Bat"
+  },
+  {
+    "name": "Cloak of the Manta Ray",
+    "item": "Compendium.dnd5e.items.hGrxC676XmlnS9y0",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Beast Pelt",
+    "metatag": "Ray or shark"
+  },
+  {
+    "name": "Crystal Ball",
+    "item": "Compendium.dnd5e.items.ItoGjtOtDOQ2noNM",
+    "rarity": "veryRare",
+    "price": 28000,
+    "component": "Celestial Eye"
+  },
+  {
+    "name": "Cube of Force",
+    "item": "Compendium.dnd5e.items.s4fR8bxQGSt4wbH7",
+    "rarity": "veryRare",
+    "price": 16000,
+    "component": "Construct Instructions"
+  },
+  {
+    "name": "Cubic Gate",
+    "item": "Compendium.dnd5e.items.6ai1pEde3iQX30Fr",
+    "rarity": "legendary",
+    "price": 40000,
+    "component": "Elemental Primordial Dust"
+  },
+  {
+    "name": "Decanter of Endless Water",
+    "item": "Compendium.dnd5e.items.qXcUKfCVxEvV3VU8",
+    "component": "Volatile Mote of Elemental Water",
+    "variants": [
+      {
+        "mod": "(60 Gallons/day)",
+        "price": 300,
+        "rarity": "uncommon"
+      },
+      {
+        "mod": "(300 Gallons/day)",
+        "price": 1300,
+        "rarity": "rare"
+      },
+      {
+        "mod": "(1500 Gallons/day)",
+        "price": 6200,
+        "rarity": "veryRare"
+      },
+      {
+        "mod": "(Unlimited)",
+        "price": 28800,
+        "rarity": "legendary"
+      }
+    ]
+  },
+  {
+    "name": "Deck of Illusions",
+    "item": "Compendium.dnd5e.items.Wk7EOYoY3b2tgGoS",
+    "rarity": "uncommon",
+    "price": 600,
+    "component": "Celestial Soul"
+  },
+  {
+    "name": "Deck of Many Things",
+    "item": "Compendium.dnd5e.items.oSarKEU8x1AupB6z",
+    "rarity": "legendary",
+    "price": 60000,
+    "component": "Fiend Soul"
+  },
+  {
+    "name": "Dimensional Shackles",
+    "item": "Compendium.dnd5e.items.wGKykLRS8UqChNXI",
+    "rarity": "rare",
+    "price": 2500,
+    "component": "Aberration Fat"
+  },
+  {
+    "name": "Dust of Disappearance",
+    "item": "Compendium.dnd5e.items.cGUPm15mLfhGDz2b",
+    "rarity": "uncommon",
+    "price": 250,
+    "component": "Elemental Primordial Dust"
+  },
+  {
+    "name": "Dust of Dryness",
+    "item": "Compendium.dnd5e.items.eMR6B4bIoJPUDJG8",
+    "rarity": "uncommon",
+    "price": 180,
+    "component": "Pouch of Celestial Dust"
+  },
+  {
+    "name": "Dust of Sneezing and Choking",
+    "item": "Compendium.dnd5e.items.9eyZY9tL3fXD1Mbm",
+    "rarity": "uncommon",
+    "price": 480,
+    "component": "Pouch of Fiend Dust"
+  },
+  {
+    "name": "Efficient Quiver",
+    "item": "Compendium.dnd5e.items.MLNzQUsVUi0PEV3i",
+    "rarity": "uncommon",
+    "price": 1000,
+    "component": "Pouch of Fey Teeth"
+  },
+  {
+    "name": "Efreeti Bottle",
+    "item": "Compendium.dnd5e.items.fbcQsOgWCjhEAGY7",
+    "rarity": "legendary",
+    "price": 30000,
+    "component": "Core of Elemental Fire",
+    "metatag": "Efreeti"
+  },
+  {
+    "name": "Elemental Gem",
+    "rarity": "rare",
+    "price": 960,
+    "component": "Elemental Eye",
+    "variants": [
+      {
+        "item": "Compendium.dnd5e.items.zDJ4oEt5HArN1xmP",
+        "metatag": "Djinni"
+      },
+      {
+        "item": "Compendium.dnd5e.items.HLEhnzLbpRbYdAHo"
+      },
+      {
+        "item": "Compendium.dnd5e.items.dsjke4vPPsc9gsxH",
+        "metatag": "Efreefi"
+      },
+      {
+        "item": "Compendium.dnd5e.items.IGwDN9gtYxCrlrCr"
+      }
+    ]
+  },
+  {
+    "name": "Eversmoking Bottle",
+    "item": "Compendium.dnd5e.items.CvzjhUy9ekRieR1A",
+    "rarity": "uncommon",
+    "price": 480,
+    "component": "Pouch of Plant Spores"
+  },
+  {
+    "name": "Eyes of Charming",
+    "item": "Compendium.dnd5e.items.8dfhaa1g3VDjhtm3",
+    "rarity": "uncommon",
+    "price": 1000,
+    "component": "Fey Eye"
+  },
+  {
+    "name": "Eyes of Minute Seeing",
+    "item": "Compendium.dnd5e.items.BsyPV6eTNghT3Fho",
+    "rarity": "uncommon",
+    "price": 850,
+    "component": "Beast Eye",
+    "metatag": "Bird"
+  },
+  {
+    "name": "Eyes of the Eagle",
+    "item": "Compendium.dnd5e.items.U4PI6l96QJUk6TGb",
+    "rarity": "uncommon",
+    "price": 850,
+    "component": "Beast Eye",
+    "metatag": "Eagle"
+  },
+  {
+    "name": "Feather Token",
+    "variants": [
+      {
+        "item": "Compendium.dnd5e.items.DnlQkH6Bpwkd5n5Y",
+        "price": 50,
+        "rarity": "common",
+        "component": "Bundle of Plant Roots"
+      },
+      {
+        "item": "Compendium.dnd5e.items.hWqImieUaLo08l9l",
+        "price": 3000,
+        "rarity": "rare",
+        "component": "Beast Beak"
+      },
+      {
+        "item": "Compendium.dnd5e.items.e98hfROZjztt7ccO",
+        "price": 300,
+        "rarity": "uncommon",
+        "component": "Pouch of Monstrosity Feathers"
+      },
+      {
+        "item": "Compendium.dnd5e.items.UgnUJhu0tW1tLt7g",
+        "price": 1400,
+        "rarity": "rare",
+        "component": "Monstrosity Beak"
+      },
+      {
+        "item": "Compendium.dnd5e.items.NjTgPn2o0M1TGk93",
+        "price": 50,
+        "rarity": "common",
+        "component": "Plant Bark"
+      },
+      {
+        "item": "Compendium.dnd5e.items.Fgkj11diTJJ7H3JC",
+        "price": 600,
+        "rarity": "uncommon",
+        "component": "Aberration Tentacle"
+      }
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power",
+    "rarity": "rare",
+    "variants": [
+      {
+        "item": "Compendium.dnd5e.items.CI58LNiwrTpmWYMp",
+        "price": 2000,
+        "component": "Pouch of Monstrosity Feathers",
+        "metatag": "Griffon"
+      },
+      {
+        "item": "Compendium.dnd5e.items.s2kQs21J3cFg7ZSs",
+        "price": 4000,
+        "component": "Beast Chitin",
+        "metatag": "Insect"
+      },
+      {
+        "item": "Compendium.dnd5e.items.Minr6xegwoHFvAjG",
+        "rarity": "uncommon",
+        "price": 600,
+        "component": "Beast Pelt",
+        "metatag": "Lion"
+      },
+      {
+        "item": [
+          "Compendium.dnd5e.items.8CaODbNQtxHGuVjn",
+          "Compendium.dnd5e.items.41kYCmKq0PbGVKaM",
+          "Compendium.dnd5e.items.iLt7wTWr4cJnQulJ"
+        ],
+        "rarity": "veryRare",
+        "price": 17400,
+        "component": "Beast Horn",
+        "metatag": "Goat"
+      },
+      {
+        "item": "Compendium.dnd5e.items.GP2bvHlxVi30OEmo",
+        "price": 6000,
+        "component": "Beast Tusk",
+        "metatag": "Elephant"
+      },
+      {
+        "item": "Compendium.dnd5e.items.M5qkJ7erLqWYUHa0",
+        "rarity": "veryRare",
+        "price": 24000,
+        "component": "Beast Bone",
+        "metatag": "Horse"
+      },
+      {
+        "item": "Compendium.dnd5e.items.9nxSHbqlDdngtuuz",
+        "price": 3000,
+        "component": "Pouch of Beast Teeth",
+        "metatag": "Dog or Wolf"
+      },
+      {
+        "item": "Compendium.dnd5e.items.XEH5YErAN1WSytln",
+        "price": 7000,
+        "component": "Beast Eye",
+        "metatag": "Owl"
+      },
+      {
+        "item": "Compendium.dnd5e.items.nMtmxeYrbyFdv0bg",
+        "rarity": "uncommon",
+        "price": 1000,
+        "component": "Beast Beak",
+        "metatag": "Bird"
+      }
+    ]
+  },
+  {
+    "name": "Folding Boat",
+    "item": "Compendium.dnd5e.items.u4ewpAFZjLrWrmQv",
+    "rarity": "rare",
+    "price": 3000,
+    "component": "Plant Bark"
+  },
+  {
+    "name": "Gauntlets of Ogre Power",
+    "item": "Compendium.dnd5e.items.3TWT5bv3z5zGUZCe",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Giant Bone",
+    "metatag": "Ogre"
+  },
+  {
+    "name": "Gem of Brightness",
+    "item": "Compendium.dnd5e.items.thkvJ5QBRORIwkkV",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Celestial Fat"
+  },
+  {
+    "name": "Gem of Seeing",
+    "item": "Compendium.dnd5e.items.jJU8vFhHLQeKe2wu",
+    "rarity": "rare",
+    "price": 8000,
+    "component": "Celestial Eye"
+  },
+  {
+    "name": "Gloves of Missile Snaring",
+    "item": "Compendium.dnd5e.items.otYAEwhsANKHZAmk",
+    "rarity": "uncommon",
+    "price": 1500,
+    "component": "Fey Pelt"
+  },
+  {
+    "name": "Gloves of Swimming and Climbing",
+    "item": "Compendium.dnd5e.items.PRhtLbRLb9LjHZG7",
+    "rarity": "uncommon",
+    "price": 900,
+    "component": "Pouch of Beast Scales",
+    "metatag": "Shark"
+  },
+  {
+    "name": "Goggles of Night",
+    "item": "Compendium.dnd5e.items.XGAWqtmhK6SYBL6A",
+    "rarity": "uncommon",
+    "price": 1000,
+    "component": "Monstrosity Eye"
+  },
+  {
+    "name": "Hat of Disguise",
+    "item": "Compendium.dnd5e.items.dQxqcjDm0IxYusCV",
+    "rarity": "uncommon",
+    "price": 1200,
+    "component": "Fiend Skin",
+    "metatag": "Shapechanger"
+  },
+  {
+    "name": "Headband of Intellect",
+    "item": "Compendium.dnd5e.items.a26LjC4QxP1oorXC",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Humanoid Brain"
+  },
+  {
+    "name": "Helm of Brilliance",
+    "item": "Compendium.dnd5e.items.rhGulc3gEJhnuP31",
+    "rarity": "veryRare",
+    "price": 25000,
+    "component": "Pouch of Celestial Scales"
+  },
+  {
+    "name": "Helm of Comprehending Languages",
+    "item": "Compendium.dnd5e.items.rY9sRFQp5CFSfsat",
+    "rarity": "uncommon",
+    "price": 500,
+    "component": "Construct Brain"
+  },
+  {
+    "name": "Helm of Telepathy",
+    "item": "Compendium.dnd5e.items.EJVaAvNfCq6gn6VG",
+    "rarity": "uncommon",
+    "price": 2000,
+    "component": "Fiend Brain"
+  },
+  {
+    "name": "Helm of Teleportation",
+    "item": "Compendium.dnd5e.items.DEQkJiQdGyfmSNkV",
+    "rarity": "veryRare",
+    "price": 23000,
+    "component": "Fey Tentacle"
+  },
+  {
+    "name": "Handy Haversack",
+    "item": "Compendium.dnd5e.items.7vqs5AqI4VCmuszx",
+    "rarity": "uncommon",
+    "price": 1500,
+    "component": "Aberration Hide"
+  },
+  {
+    "name": "Horn of Blasting",
+    "item": "Compendium.dnd5e.items.t7GfyRp3dB3lqS9i",
+    "rarity": "uncommon",
+    "price": 450,
+    "component": "Dragon Horn"
+  },
+  {
+    "name": "Horn of Valhalla",
+    "variants": [
+      {
+        "item": "Compendium.dnd5e.items.QYJyQCnIQeLiMrmJ",
+        "rarity": "rare",
+        "price": 8400,
+        "component": "Beast Tusk",
+        "metatag": "Elephant"
+      },
+      {
+        "item": "Compendium.dnd5e.items.sqcerAMszpe3hwyI",
+        "rarity": "veryRare",
+        "price": 14000,
+        "component": "Beast Tusk",
+        "metatag": "Mammoth"
+      },
+      {
+        "item": "Compendium.dnd5e.items.qVuZznv0MnIjDU70",
+        "rarity": "legendary",
+        "price": 28800,
+        "component": "Fiend Horn",
+        "metatag": "Balor"
+      },
+      {
+        "item": "Compendium.dnd5e.items.lTfo6OVvAY2iJ4oq",
+        "rarity": "rare",
+        "price": 5600,
+        "component": "Beast Horn",
+        "metatag": "Rhinoceros"
+      }
+    ]
+  },
+  {
+    "name": "Horseshoes of Speed",
+    "item": "Compendium.dnd5e.items.nAqDwI9GyXS1diiz",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Pouch of Beast Claws"
+  },
+  {
+  "name": "Horseshoes of a Zephyr",
+  "item": "Compendium.dnd5e.items.2mvXGvDmHHhzbT04",
+  "rarity": "veryRare",
+  "price": 6200,
+  "component": "Pouch of Monstrosity Claws"
+  },
+  {
+    "name": "Instant Fortress",
+    "item": "Compendium.dnd5e.items.9stfX2i2I1YPo8vx",
+    "rarity": "legendary",
+    "price": 75000,
+    "component": "Construct Bone"
+  },
+  {
+    "name": "Ioun Stone",
+    "variants": [
+      {
+        "item": "Compendium.dnd5e.items.NGVEouqK0I6J6jV5",
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "Aberration Chitin"
+      },
+      {
+        "item": "Compendium.dnd5e.items.Q4Iy6hqREsbk9yG7",
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "Fey Psyche",
+        "metatag": "Dex ≥ 20"
+      },
+      {
+        "item": "Compendium.dnd5e.items.h8rS84jKsMHl9J1i",
+        "rarity": "veryRare",
+        "price": 1200,
+        "component": "Dragon Heart",
+        "metatag": "Adult or Ancient"
+      },
+      {
+        "item": "Compendium.dnd5e.items.ig5DOQtQYJPXJId4",
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "Fiend Soul",
+        "metatag": "Con ≥ 20"
+      },
+      {
+        "item": "Compendium.dnd5e.items.7FEcfqz1piPHN1tV",
+        "rarity": "legendary",
+        "price": 41600,
+        "component": "Construct Lifespark",
+        "metatag": "Shield Guardian"
+      },
+      {
+        "item": "Compendium.dnd5e.items.9jMQEm99q1ttAV1Q",
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "Celestial Soul",
+        "metatag": "Wis ≥ 20"
+      },
+      {
+        "item": "Compendium.dnd5e.items.YeLz5OxRNxmvHJId",
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "Fey Psyche",
+        "metatag": "Int ≥ 20"
+      },
+      {
+        "item": "Compendium.dnd5e.items.hDF4RSCzMO8iI14x",
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "Celestial Soul",
+        "metatag": "Cha ≥ 20"
+      },
+      {
+        "item": "Compendium.dnd5e.items.nk2MH16KcZmKp7FQ",
+        "rarity": "legendary",
+        "price": 41600,
+        "component": "Fiend Soul",
+        "metatag": "Pit Fiend"
+      },
+      {
+        "item": "Compendium.dnd5e.items.v4uNbmiz4ECTI89n",
+        "rarity": "rare",
+        "price": 2100,
+        "component": "Monstrosity Horn",
+        "metatag": "Gorgon"
+      },
+      {
+        "item": "Compendium.dnd5e.items.szNhDWpks5BhEXhT",
+        "rarity": "veryRare",
+        "price": 9400,
+    "component": "Giant Liver",
+        "metatag": "Troll"
+      },
+      {
+        "item": "Compendium.dnd5e.items.jvKmgJYL33E8gev5",
+        "rarity": "rare",
+        "price": 5200,
+    "component": "Humanoid Brain",
+        "metatag": "Spellcaster"
+      },
+      {
+        "item": "Compendium.dnd5e.items.0G5LSgbb5NTV4XC7",
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "Dragon Horn",
+        "metatag": "Str ≥ 20"
+      },
+      {
+        "item": "Compendium.dnd5e.items.6MDTnMG4Hcw7qZsy",
+        "rarity": "rare",
+        "price": 2100,
+    "component": "Undead Undying Heart",
+        "metatag": "Vampire"
+      }
+    ]
+  },
+  {
+    "name": "Iron Bands of Binding",
+    "item": "Compendium.dnd5e.items.E9G4jALlSA96fKAN",
+    "rarity": "rare",
+    "price": 4000,
+    "component": "Bundle of Plant Roots",
+    "metatag": "Shambling Mound"
+  },
+  {
+    "name": "Iron Flask",
+    "item": "Compendium.dnd5e.items.lvLrkAR7k8DS7J3W",
+    "rarity": "legendary",
+    "price": 28800,
+    "component": "Construct Plating",
+    "metatag": "Iron Golem"
+  },
+  {
+    "name": "Lantern of Revealing",
+    "item": "Compendium.dnd5e.items.7FLs8qIGdOFnz9oL",
+    "rarity": "uncommon",
+    "price": 900,
+    "component": "Fey Eye",
+    "metatag": "Hag"
+  },
+  {
+    "name": "Mantle of Spell Resistance",
+    "item": "Compendium.dnd5e.items.oxzUb5j1TMsccGW4",
+    "rarity": "veryRare",
+    "price": 19000,
+    "component": "Fiend Skin",
+    "metatag": "Rakshasa"
+  },
+  {
+    "name": "Manual of Bodily Health",
+    "item": "Compendium.dnd5e.items.BjyTJn9oGvURWKJR",
+    "rarity": "veryRare",
+    "price": 14000,
+    "component": "Giant Liver"
+  },
+  {
+    "name": "Manual of Golems",
+    "item": "Compendium.dnd5e.items.UxkP6FvDzPbsIY6o",
+    "rarity": "veryRare",
+    "variants": [
+      {
+        "mod": "Clay",
+        "price": 8200,
+        "component": "Construct Stone",
+        "metatag": "Clay Golem"
+      },
+      {
+        "mod": "Flesh",
+        "price": 6200,
+        "component": "Construct Flesh",
+        "metatag": "Flesh Golem"
+      },
+      {
+        "mod": "Iron",
+        "price": 12200,
+        "component": "Construct Plating",
+        "metatag": "Iron Golem"
+      },
+      {
+        "mod": "Stone",
+        "price": 9200,
+        "component": "Construct Stone",
+        "metatag": "Stone Golem"
+      }
+    ]
+  },
+  {
+    "name": "Manual of Gainful Exercise",
+    "item": "Compendium.dnd5e.items.ykefWXBjq3y6y9Se",
+    "rarity": "veryRare",
+    "price": 14000,
+    "component": "Humanoid Liver"
+  },
+  {
+    "name": "Manual of Quickness of Action",
+    "item": "Compendium.dnd5e.items.Q4jmng3i9Lb2nL5F",
+    "rarity": "veryRare",
+    "price": 14000,
+    "component": "Phial of Fey Blood"
+  },
+  {
+    "name": "Marvelous Pigments",
+    "item": "Compendium.dnd5e.items.e3XQygrXkzNvkDGF",
+    "rarity": "veryRare",
+    "price": 8600,
+    "component": "Phial of Plant Wax"
+  },
+  {
+    "name": "Medallion of Thoughts",
+    "item": "Compendium.dnd5e.items.skoUe223EvRYGPL6",
+    "rarity": "uncommon",
+    "price": 1200,
+    "component": "Phial of Aberration Blood"
+  },
+  {
+    "name": "Mirror of Life Trapping",
+    "item": "Compendium.dnd5e.items.hf5j1meGsA33HkUj",
+    "rarity": "veryRare",
+    "price": 18000,
+    "component": "Undead Eye"
+  },
+  {
+    "name": "Necklace of Adaptation",
+    "item": "Compendium.dnd5e.items.wwNpAz2KMukovewN",
+    "rarity": "uncommon",
+    "price": 1200,
+    "component": "Monstrosity Poison Gland"
+  },
+  {
+    "name": "Necklace of Fireballs",
+    "item": "Compendium.dnd5e.items.3ALOhh6JNInIK4o7",
+    "component": "Dragon Breath Sac",
+    "metatag": "(Dragon with Fire Immunity or Resistance)",
+    "variants": [
+      {
+        "mod": "3 Beads",
+        "rarity": "uncommon"
+      },
+      {
+        "mod": "6 Beads",
+        "rarity": "rare"
+      }
+    ]
+  },
+  {
+    "name": "Necklace of Prayer Beads",
+    "item": "Compendium.dnd5e.items.wqVSRfkcTjuhvDyx",
+    "component": "Pouch of Celestial Teeth",
+    "note": "You can craft up to 6 beads. Use highest rarity to determine essence. Add cost of all beads together.",
+    "variants": [
+      {
+        "mod": "Bless",
+        "rarity": "uncommon",
+        "price": 300
+      },
+      {
+        "mod": "Curing",
+        "rarity": "uncommon",
+        "price": 600
+      },
+      {
+        "mod": "Favor",
+        "rarity": "rare",
+        "price": 3200
+      },
+      {
+        "mod": "Smiting",
+        "rarity": "uncommon",
+        "price": 600
+      },
+      {
+        "mod": "Summons",
+        "rarity": "veryRare",
+        "price": 6400
+      },
+      {
+        "mod": "Wind Walk",
+        "rarity": "veryRare",
+        "price": 6400
+      }
+    ]
+  },
+  {
+    "name": "Orb of Dragonkind",
+    "item": "Compendium.dnd5e.items.1RwJWOAeyoideLKe",
+    "rarity": "artifact",
+    "price": 4000000,
+    "component": "Dragon Heart"
+  },
+  {
+    "name": "Pearl of Power",
+    "item": "Compendium.dnd5e.items.44XNWmMGnwXn7bNW",
+    "rarity": "uncommon",
+    "price": 1000,
+    "component": "Pouch of Aberration Teeth"
+  },
+  {
+  "name": "Periapt of Health",
+  "item": "Compendium.dnd5e.items.9v0TPDXNa9S7aNB4",
+  "rarity": "uncommon",
+  "price": 400,
+  "component": "Monstrosity Heart"
+  },
+  {
+    "name": "Periapt of Proof against Poison",
+    "item": "Compendium.dnd5e.items.oYZNXHth1UYxPwVi",
+    "rarity": "rare",
+    "price": 5000,
+    "component": "Fey Poison Gland"
+  },
+  {
+    "name": "Periapt of Wound Closure",
+    "item": "Compendium.dnd5e.items.DWwBkOFuYf5VN3M2",
+    "rarity": "rare",
+    "price": 800,
+    "component": "Phial of Ooze Mucus"
+  },
+  {
+    "name": "Pipes of Haunting",
+    "item": "Compendium.dnd5e.items.oNLfJNRQgUHpU8c7",
+    "rarity": "uncommon",
+    "price": 800,
+    "component": "Fey Bone"
+  },
+  {
+    "name": "Pipes of the Sewers",
+    "item": "Compendium.dnd5e.items.nvhk1quD0Dg1ZtSH",
+    "rarity": "uncommon",
+    "price": 700,
+    "component": "Monstrosity Bone"
+  },
+  {
+    "name": "Portable Hole",
+    "item": "Compendium.dnd5e.items.rvxGvcUzoQXVNbAu",
+    "rarity": "rare",
+    "price": 2500,
+    "component": "Aberration Hide"
+  },
+  {
+  "name": "Restorative Ointment",
+  "item": "Compendium.dnd5e.items.VmcgAIsRCyrjBguC",
+  "rarity": "uncommon",
+  "price": 360,
+  "component": "Pouch of Plant Leaves"
+  },
+  {
+    "name": "Robe of Eyes",
+    "item": "Compendium.dnd5e.items.U74TPNQLJZbHJyCk",
+    "rarity": "rare",
+    "price": 4000,
+    "component": "Monstrosity Eye",
+    "metatag": "Sphinx"
+  },
+  {
+    "name": "Robe of Scintillating Colors",
+    "item": "Compendium.dnd5e.items.JRJpKZyamkpa7awv",
+    "rarity": "veryRare",
+    "price": 9400,
+    "component": "Pouch of Plant Pollen"
+  },
+  {
+    "name": "Robe of Stars",
+    "item": "Compendium.dnd5e.items.66UkbfH0PVwo4HgA",
+    "rarity": "veryRare",
+    "price": 18000,
+    "component": "Aberration Eye"
+  },
+  {
+    "name": "Robe of Useful Items",
+    "item": "Compendium.dnd5e.items.2ksm2KXCY3vBHTAx",
+    "rarity": "uncommon",
+    "price": 1250,
+    "component": "Humanoid Skin"
+  },
+  {
+    "name": "Robe of the Archmagi",
+    "item": "Compendium.dnd5e.items.mr96Z8YTI490ExhP",
+    "rarity": "legendary",
+    "price": 41600,
+    "variants": [
+      {
+        "mod": "Good",
+        "component": "Fiend Skin"
+      },
+      {
+        "mod": "Neutral",
+        "component": "Humanoid Skin"
+      },
+      {
+        "mod": "Evil",
+        "component": "Celestial Skin"
+      }
+    ]
+  },
+  {
+    "name": "Rope of Climbing",
+    "item": "Compendium.dnd5e.items.29e6gHwWKNLaRUoz",
+    "rarity": "uncommon",
+    "price": 900,
+    "component": "Monstrosity Talon"
+  },
+  {
+    "name": "Rope of Entanglement",
+    "item": "Compendium.dnd5e.items.J8gQdJJi5e8LmD7H",
+    "rarity": "rare",
+    "price": 2000,
+    "component": "Monstrosity Pincer"
+  },
+  {
+    "name": "Scarab of Protection",
+    "item": "Compendium.dnd5e.items.xjRSY2ECcc9viSz3",
+    "rarity": "legendary",
+    "price": 41600,
+    "component": "Undead Undying Heart",
+    "metatag": "Lich"
+  },
+  {
+    "name": "Slippers of Spider Climbing",
+    "item": "Compendium.dnd5e.items.ZgXJE9pjvZLMCeHg",
+    "rarity": "uncommon",
+    "price": 1500,
+    "component": "Pouch of Beast Claws",
+    "metatag": "Spider"
+  },
+  {
+    "name": "Sovereign Glue",
+    "item": "Compendium.dnd5e.items.zJ5LhDvTxYKzPIx4",
+    "rarity": "veryRare",
+    "price": 4800,
+    "component": "Phial of Ooze Mucus",
+    "metatag": "Black Pudding"
+  },
+  {
+    "name": "Sphere of Annihilation",
+    "item": "Compendium.dnd5e.items.2YNqk5zm9jDTvd7q",
+    "rarity": "veryRare",
+    "price": 15000,
+    "component": "Fiend Eye"
+  },
+  {
+    "name": "Stone of Controlling Earth Elementals",
+    "item": "Compendium.dnd5e.items.TWFS1BtruQeE10BY",
+    "rarity": "rare",
+    "price": 3200,
+    "component": "Core of Elemental Earth"
+  },
+  {
+    "name": "Stone of Good Luck",
+    "item": "Compendium.dnd5e.items.296Zgo9RhltWShE1",
+    "rarity": "uncommon",
+    "price": 1500,
+    "component": "Humanoid Heart",
+    "metatag": "Halfling"
+  },
+  {
+    "name": "Talisman of Pure Good",
+    "item": "Compendium.dnd5e.items.iB3gunzgxZ8xK6Z5",
+    "rarity": "legendary",
+    "price": 72000,
+    "component": "Celestial Heart",
+    "metatag": "Good-Aligned god"
+  },
+  {
+    "name": "Talisman of Ultimate Evil",
+    "item": "Compendium.dnd5e.items.PAXfmZ2ErDlCVy0N",
+    "rarity": "legendary",
+    "price": 62000,
+    "component": "Fiend Heart",
+    "metatag": "Evil-Aligned god"
+  },
+  {
+    "name": "Talisman of the Sphere",
+    "item": "Compendium.dnd5e.items.46ikeR4RrSim6DsN",
+    "rarity": "veryRare",
+    "price": 15000,
+    "component": "Celestial Eye"
+  },
+  {
+    "name": "Tome of Clear Thought",
+    "item": "Compendium.dnd5e.items.2BYm8to5KldN8eYu",
+    "rarity": "veryRare",
+    "price": 9200,
+    "component": "Phial of Construct Blood"
+  },
+  {
+    "name": "Tome of Leadership and Influence",
+    "item": "Compendium.dnd5e.items.oN4Glcmi4BhdAI3k",
+    "rarity": "veryRare",
+    "price": 9200,
+    "component": "Celestial Horn"
+  },
+  {
+    "name": "Tome of Understanding",
+    "item": "Compendium.dnd5e.items.WnKWD1FuAFUE7f4v",
+    "rarity": "veryRare",
+    "price": 9200,
+    "component": "Aberration Brain"
+  },
+  {
+    "name": "Universal Solvent",
+    "item": "Compendium.dnd5e.items.MAwoj2suj6cvb9Ti",
+    "rarity": "legendary",
+    "price": 22400,
+    "component": "Phial of Ooze Acid"
+  },
+  {
+    "name": "Well of Many Worlds",
+    "item": "Compendium.dnd5e.items.xjme5oSQZmdAy1fc",
+    "rarity": "legendary",
+    "price": 96000,
+    "component": "Aberration Hide"
+  },
+  {
+    "name": "Wind Fan",
+    "item": "Compendium.dnd5e.items.mYFfH24uzuKh4IPS",
+    "rarity": "uncommon",
+    "price": 700,
+    "component": "Pouch of Monstrosity Feathers"
+  },
+  {
+    "name": "Winged Boots",
+    "item": "Compendium.dnd5e.items.YjImJ3cVnArHH4ES",
+    "rarity": "rare",
+    "price": 6000,
+    "component": "Pouch of Fiend Feathers"
+  },
+  {
+    "name": "Wings of Flying",
+    "item": "Compendium.dnd5e.items.FkDyLSpiynKTQZdi",
+    "rarity": "rare",
+    "price": 6000,
+    "component": "Pouch of Celestial Feathers"
+  }
+]
