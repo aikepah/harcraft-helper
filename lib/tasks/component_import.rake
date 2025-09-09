@@ -9,40 +9,42 @@ namespace :components do
 
     updated = 0
     created = 0
-    data.each do |item|
-      next unless item["id"] && item["name"]
-      # Set name directly from JSON
+
+    def process_component_item(item)
+      return :skipped unless item["id"] && item["name"]
       name = item["name"]
-      # Downcase monster type to match enum
       monster_type = item["creatureType"].to_s.downcase
-      # Remove leading monster type from name for component_type
       component_type = name.gsub(/^#{item["creatureType"]}\s+/i, "")
       component_type = component_type.gsub(/\b#{item["creatureType"]}\b/i, "").gsub(/\s+/, " ").strip
-      # Convert to enum format: downcase, spaces/dashes to underscores
       component_type_enum = component_type.downcase.gsub(/[\s\-]+/, "_").gsub(/[^a-z0-9_]/, "")
-      # Only import if the component_type_enum is valid
-      if Component.component_types.key?(component_type_enum)
-        component = Component.find_by(monster_type: monster_type, component_type: component_type_enum)
-        attrs = {
-          monster_type: monster_type,
-          name: name,
-          component_type: component_type_enum,
-          dc: item["dc"],
-          crafting: item["crafting"],
-          edible: item["edible"],
-          volatile: item["volatile"],
-          note: item["notes"]
-        }.compact
-        if component
-          component.update(attrs)
-          updated += 1
-        else
-          Component.create!(attrs)
-          created += 1
-        end
-      else
+      unless Component.component_types.key?(component_type_enum)
         puts "Skipped: #{name} (component_type: #{component_type_enum})"
+        return :skipped
       end
+      component = Component.find_by(monster_type: monster_type, component_type: component_type_enum)
+      attrs = {
+        monster_type: monster_type,
+        name: name,
+        component_type: component_type_enum,
+        dc: item["dc"],
+        crafting: item["crafting"],
+        edible: item["edible"],
+        volatile: item["volatile"],
+        note: item["notes"]
+      }.compact
+      if component
+        component.update(attrs)
+        :updated
+      else
+        Component.create!(attrs)
+        :created
+      end
+    end
+
+    data.each do |item|
+      result = process_component_item(item)
+      updated += 1 if result == :updated
+      created += 1 if result == :created
     end
     puts "Updated #{updated} components from JSON."
     puts "Created #{created} new components from JSON."

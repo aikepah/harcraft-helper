@@ -9,56 +9,53 @@ namespace :recipes do
 
       updated = 0
       created = 0
+
+      def process_recipe_item(name, component_name, rarity, price, metatag)
+        component = Component.find_by(name: component_name)
+        unless component
+          puts "Component not found for recipe: #{name} (component name: #{component_name})"
+          return :missing
+        end
+        craftable_item = CraftableItem.find_or_initialize_by(name: name)
+        craftable_item.rarity = rarity if rarity
+        craftable_item.material_cost = price if price
+        desc = ""
+        desc += "Monster: #{metatag}\n" if metatag
+        craftable_item.description = desc unless desc.empty?
+        was_persisted = craftable_item.persisted?
+        craftable_item.save!
+        unless craftable_item.components.exists?(component.id)
+          CraftableItemComponent.create!(craftable_item: craftable_item, component: component)
+        end
+        was_persisted ? :updated : :created
+      end
+
       data.each do |recipe|
         if recipe["variants"] && recipe["variants"].is_a?(Array)
           recipe["variants"].each do |variant|
             variant_name = variant["mod"] ? "#{recipe["name"]} (#{variant["mod"]})" : recipe["name"]
             component_name = variant["component"] || recipe["component"]
-            component = Component.find_by(name: component_name)
-            unless component
-              puts "Component not found for recipe variant: #{variant_name} (component name: #{component_name})"
-              next
-            end
-            craftable_item = CraftableItem.find_or_initialize_by(name: variant_name)
-            craftable_item.rarity = recipe["rarity"] if recipe["rarity"]
-            craftable_item.material_cost = variant["price"] || recipe["price"] if variant["price"] || recipe["price"]
-            # Set description with metatag if present
-            desc = ""
-            desc += "Monster: #{variant["metatag"]}\n" if variant["metatag"]
-            craftable_item.description = desc unless desc.empty?
-            if craftable_item.persisted?
-              updated += 1
-            else
-              created += 1
-            end
-            craftable_item.save!
-            unless craftable_item.components.exists?(component.id)
-              CraftableItemComponent.create!(craftable_item: craftable_item, component: component)
-            end
+            result = process_recipe_item(
+              variant_name,
+              component_name,
+              recipe["rarity"],
+              variant["price"] || recipe["price"],
+              variant["metatag"]
+            )
+            updated += 1 if result == :updated
+            created += 1 if result == :created
           end
         else
           next unless recipe["name"] && recipe["component"]
-          component = Component.find_by(name: recipe["component"])
-          unless component
-            puts "Component not found for recipe: #{recipe["name"]} (component name: #{recipe["component"]})"
-            next
-          end
-          craftable_item = CraftableItem.find_or_initialize_by(name: recipe["name"])
-          craftable_item.rarity = recipe["rarity"] if recipe["rarity"]
-          craftable_item.material_cost = recipe["price"] if recipe["price"]
-          # Set description with metatag if present
-          desc = ""
-          desc += "Monster: #{recipe["metatag"]}\n" if recipe["metatag"]
-          craftable_item.description = desc unless desc.empty?
-          if craftable_item.persisted?
-            updated += 1
-          else
-            created += 1
-          end
-          craftable_item.save!
-          unless craftable_item.components.exists?(component.id)
-            CraftableItemComponent.create!(craftable_item: craftable_item, component: component)
-          end
+          result = process_recipe_item(
+            recipe["name"],
+            recipe["component"],
+            recipe["rarity"],
+            recipe["price"],
+            recipe["metatag"]
+          )
+          updated += 1 if result == :updated
+          created += 1 if result == :created
         end
       end
       puts "Updated #{updated} craftable items from JSON."
