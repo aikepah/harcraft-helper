@@ -1,32 +1,52 @@
 # lib/tasks/component_import.rake
+
 namespace :components do
-  desc "Import DC, edible, volatile, and note values from YAML into components table"
-  task import_from_yaml: :environment do
-    require "yaml"
-    path = Rails.root.join("config", "component_dcs.yml")
-    data = YAML.load_file(path)
+  desc "Import components from harvesting-components.json into the components table"
+  task import_from_json: :environment do
+    require "json"
+    path = Rails.root.join("lib", "harvesting-components.json")
+    data = JSON.parse(File.read(path))
 
     updated = 0
     created = 0
-    data.each do |monster_type, comps|
-      comps.each do |component_type, attrs|
-        attrs ||= {}
-        dc = attrs["dc"]
-        edible = attrs.key?("edible") ? attrs["edible"] : false
-        volatile = attrs.key?("volatile") ? attrs["volatile"] : false
-        note = attrs["note"] || ""
-        next unless dc # skip if no DC
-        component = Component.find_by(monster_type: monster_type, component_type: component_type)
-        if component
-          component.update(dc: dc, edible: edible, volatile: volatile, note: note)
-          updated += 1
-        else
-          Component.create!(monster_type: monster_type, component_type: component_type, dc: dc, edible: edible, volatile: volatile, note: note)
-          created += 1
-        end
+
+    def process_component_item(item)
+      return :skipped unless item["id"] && item["name"]
+      name = item["name"]
+      monster_type = item["creatureType"].to_s.downcase
+      component_type = name.gsub(/^#{item["creatureType"]}\s+/i, "")
+      component_type = component_type.gsub(/\b#{item["creatureType"]}\b/i, "").gsub(/\s+/, " ").strip
+      component_type_enum = component_type.downcase.gsub(/[\s\-]+/, "_").gsub(/[^a-z0-9_]/, "")
+      unless Component.component_types.key?(component_type_enum)
+        puts "Skipped: #{name} (component_type: #{component_type_enum})"
+        return :skipped
+      end
+      component = Component.find_by(monster_type: monster_type, component_type: component_type_enum)
+      attrs = {
+        monster_type: monster_type,
+        name: name,
+        component_type: component_type_enum,
+        dc: item["dc"],
+        crafting: item["crafting"],
+        edible: item["edible"],
+        volatile: item["volatile"],
+        note: item["notes"]
+      }.compact
+      if component
+        component.update(attrs)
+        :updated
+      else
+        Component.create!(attrs)
+        :created
       end
     end
-    puts "Updated #{updated} components from YAML."
-    puts "Created #{created} new components from YAML."
+
+    data.each do |item|
+      result = process_component_item(item)
+      updated += 1 if result == :updated
+      created += 1 if result == :created
+    end
+    puts "Updated #{updated} components from JSON."
+    puts "Created #{created} new components from JSON."
   end
 end
