@@ -94,6 +94,17 @@ class Component < ApplicationRecord
     undying_heart: "undying_heart",
     vesicle: "vesicle",
     volatile_mote: "volatile_mote",
-    blood_mithral: "blood_mithral"
+    blood_mithral: "blood_mithral",
+    subeye: "subeye",
+    volatile_mote_of_air: "volatile_mote_of_air",
+    volatile_mote_of_earth: "volatile_mote_of_earth",
+    volatile_mote_of_fire: "volatile_mote_of_fire",
+    volatile_mote_of_water: "volatile_mote_of_water",
+    volatile_mote_of_tar: "volatile_mote_of_tar",
+    core_of_air: "core_of_air",
+    core_of_earth: "core_of_earth",
+    core_of_fire: "core_of_fire",
+    core_of_water: "core_of_water",
+    core_of_tar: "core_of_tar"
   }, suffix: true
 end
