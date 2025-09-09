@@ -90,8 +90,6 @@ class Component < ApplicationRecord
     tongue: "tongue",
     tuber: "tuber",
     tusk: "tusk",
-    undying_flesh: "undying_flesh",
-    undying_heart: "undying_heart",
     vesicle: "vesicle",
     volatile_mote: "volatile_mote",
     blood_mithral: "blood_mithral",
