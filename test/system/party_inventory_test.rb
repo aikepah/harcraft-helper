@@ -15,8 +15,8 @@ class PartyInventoryTest < ApplicationSystemTestCase
     select @component.monster_type.titleize, from: "monster_type"
     # Filter by component type
     select @component.component_type.titleize, from: "component_type"
-    # Add the component (use more specific selector for Add button)
-    within(:xpath, "//tr[td[contains(text(), '#{@component.display_name}')]]") do
+    # Add the component (find row by data attribute)
+    within("tr[data-expandable-row-component-id-value='#{@component.id}']") do
       find("button[data-action='click->modal#open']").click
     end
     # Modal should appear

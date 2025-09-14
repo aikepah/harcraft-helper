@@ -1,6 +1,6 @@
 </table>
 <div class="mt-4">
-  <%= paginate @components %>
+  <%= paginate @components, params: request.query_parameters.except(:page) %>
 </div>
 <div data-controller="modal">
   <div class="mb-6">
@@ -23,12 +23,28 @@
       </thead>
       <tbody>
         <% @components.each do |component| %>
-          <tr>
-            <td class="border px-2 py-1"><%= component.display_name %></td>
+          <tr data-controller="expandable-row" data-expandable-row-component-id-value="<%= component.id %>">
+            <td class="border px-2 py-1 flex items-center gap-2">
+              <button
+                type="button"
+                class="expand-btn text-lg p-0 w-6 h-6 flex items-center justify-center bg-[#3F4045] text-[#FCFCFC] hover:bg-[#5D737E] hover:text-[#02111B] rounded transition focus:outline-none"
+                aria-label="Expand row"
+                data-expandable-row-component-id-value="<%= component.id %>"
+                data-action="click->expandable-row#toggle"
+              >
+                <span data-expandable-row-target="icon" aria-hidden="true">&#9654;</span>
+              </button>
+              <%= component.display_name %>
+            </td>
             <td class="border px-2 py-1"><%= component.monster_type&.titleize %></td>
             <td class="border px-2 py-1"><%= component.component_type&.titleize %></td>
             <td class="border px-2 py-1">
               <button type="button" class="px-3 py-1 rounded bg-green-600 text-white font-semibold hover:bg-green-800 transition" data-action="click->modal#open" data-modal-component-id-value="<%= component.id %>">Add</button>
+            </td>
+          </tr>
+          <tr id="craftable-items-<%= component.id %>" class="hidden">
+            <td colspan="4" class="p-0 border-t-0">
+              <%= render partial: "party_components/craftable_items_for_component", locals: { component: component } %>
             </td>
           </tr>
         <% end %>
