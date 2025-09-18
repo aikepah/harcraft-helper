@@ -28,6 +28,7 @@ class Component < ApplicationRecord
   }, suffix: true
 
   enum :component_type, {
+    arcanothermic_core: "arcanothermic_core",
     antenna: "antenna",
     antler: "antler",
     bark: "bark",
@@ -36,7 +37,10 @@ class Component < ApplicationRecord
     brain: "brain",
     breath_sac: "breath_sac",
     bundle_of_roots: "bundle_of_roots",
+    candleplume: "candleplume",
+    carapace: "carapace",
     chitin: "chitin",
+    claw: "claw",
     core: "core",
     egg: "egg",
     ethereal_ichor: "ethereal_ichor",
@@ -45,6 +49,7 @@ class Component < ApplicationRecord
     fin: "fin",
     flesh: "flesh",
     gears: "gears",
+    hair: "hair",
     heart: "heart",
     hide: "hide",
     horn: "horn",
@@ -54,6 +59,7 @@ class Component < ApplicationRecord
     main_eye: "main_eye",
     marrow: "marrow",
     membrane: "membrane",
+    molten_eye: "molten_eye",
     nail: "nail",
     phial_of_acid: "phial_of_acid",
     phial_of_blood: "phial_of_blood",
@@ -79,7 +85,9 @@ class Component < ApplicationRecord
     pouch_of_scales: "pouch_of_scales",
     pouch_of_spores: "pouch_of_spores",
     pouch_of_teeth: "pouch_of_teeth",
+    pouch_of_thorns: "pouch_of_thorns",
     primordial_dust: "primordial_dust",
+    proboscis: "proboscis",
     psyche: "psyche",
     soul: "soul",
     stinger: "stinger",
@@ -92,6 +100,7 @@ class Component < ApplicationRecord
     tusk: "tusk",
     vesicle: "vesicle",
     volatile_mote: "volatile_mote",
+    wings: "wings",
     blood_mithral: "blood_mithral",
     subeye: "subeye",
     volatile_mote_of_air: "volatile_mote_of_air",
@@ -99,10 +108,12 @@ class Component < ApplicationRecord
     volatile_mote_of_fire: "volatile_mote_of_fire",
     volatile_mote_of_water: "volatile_mote_of_water",
     volatile_mote_of_tar: "volatile_mote_of_tar",
+    volatile_mote_of_wax: "volatile_mote_of_wax",
     core_of_air: "core_of_air",
     core_of_earth: "core_of_earth",
     core_of_fire: "core_of_fire",
     core_of_water: "core_of_water",
-    core_of_tar: "core_of_tar"
+    core_of_tar: "core_of_tar",
+    core_of_wax: "core_of_wax"
   }, suffix: true
 end

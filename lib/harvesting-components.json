@@ -1,5 +1,6 @@
 [
     {
+        "creatureType": "Aberration",
         "name": "Aberration Antenna",
         "dc": 5,
         "id": "mThBpshzp6qS1MQi",
@@ -179,6 +180,13 @@
         "crafting": true,
         "edible": true,
         "notes": "Edible can be used as eyes"
+    },
+    {
+        "creatureType": "Beast",
+        "name": "Beast Hair",
+        "dc": 5,
+        "crafting": true,
+        "edible": false
     },
     {
         "creatureType": "Beast",
@@ -407,6 +415,13 @@
     },
     {
         "creatureType": "Celestial",
+        "name": "Celestial Hair",
+        "dc": 5,
+        "crafting": true,
+        "edible": false
+    },
+    {
+        "creatureType": "Celestial",
         "name": "Celestial Flesh",
         "dc": 5,
         "id": "7cARF83kwHnJzRgl",
@@ -540,6 +555,27 @@
         "img": "icons/consumables/potions/potion-tube-corked-blue.webp",
         "crafting": true,
         "edible": true
+    },
+    {
+        "creatureType": "Construct",
+        "name": "Construct Claw",
+        "dc": 15,
+        "crafting": true,
+        "edible": false
+    },
+    {
+        "creatureType": "Construct",
+        "name": "Construct Pelt",
+        "dc": 20,
+        "crafting": true,
+        "edible": false
+    },
+    {
+        "creatureType": "Construct",
+        "name": "Construct Arcanothermic Core",
+        "dc": 20,
+        "crafting": true,
+        "edible": false
     },
     {
         "creatureType": "Construct",
@@ -771,6 +807,36 @@
     },
     {
         "creatureType": "Elemental",
+        "name": "Elemental Molten Eye",
+        "dc": 5,
+        "crafting": true,
+        "edible": false
+    },
+    {
+        "creatureType": "Elemental",
+        "name": "Volatile Mote of Elemental Wax",
+        "dc": 15,
+        "crafting": true,
+        "edible": true,
+        "volatile": true
+    },
+    {
+        "creatureType": "Elemental",
+        "name": "Core of Elemental Wax",
+        "dc": 25,
+        "crafting": true,
+        "edible": false,
+        "volatile": true
+    },
+    {
+        "creatureType": "Elemental",
+        "name": "Elemental Candleplume",
+        "dc": 20,
+        "crafting": true,
+        "edible": false
+    },
+    {
+        "creatureType": "Elemental",
         "name": "Elemental Primordial Dust",
         "dc": 5,
         "id": "DrRWMM7zhbFMSzSX",
@@ -905,6 +971,53 @@
         "crafting": true,
         "edible": true,
         "notes": "Edible can be used as eyes"
+    },
+    {
+        "creatureType": "Fey",
+        "name": "Fey Carapace",
+        "dc": 20,
+        "id": "X1mJHk3bqf1KXr0W",
+        "img": "icons/commodities/materials/bowl-powder-purple.webp",
+        "crafting": true,
+        "edible": false,
+        "notes": "Scarab carapace from Garden of Dark Delights"
+    },
+    {
+        "creatureType": "Fey",
+        "name": "Fey Hair",
+        "dc": 5,
+        "crafting": true,
+        "edible": false
+    },
+    {
+        "creatureType": "Fey",
+        "name": "Fey Wings",
+        "dc": 20,
+        "crafting": true,
+        "edible": false,
+        "notes": "Adelifae Wings from Garden of Dark Delights"
+    },
+    {
+        "creatureType": "Fey",
+        "name": "Fey Proboscis",
+        "dc": 15,
+        "crafting": true,
+        "edible": false,
+        "notes": "Adelifae Proboscis from Garden of Dark Delights"
+    },
+    {
+        "creatureType": "Fey",
+        "name": "Pouch of Fey Dust",
+        "dc": 20,
+        "crafting": true,
+        "edible": true
+    },
+    {
+        "creatureType": "Fey",
+        "name": "Pouch of Fey Thorns",
+        "dc": 10,
+        "crafting": true,
+        "edible": false
     },
     {
         "creatureType": "Fey",
@@ -1125,6 +1238,20 @@
     },
     {
         "creatureType": "Fiend",
+        "name": "Fiend Beak",
+        "dc": 10,
+        "crafting": true,
+        "edible": false
+    },
+    {
+        "creatureType": "Fiend",
+        "name": "Fiend Hair",
+        "dc": 5,
+        "crafting": true,
+        "edible": false
+    },
+    {
+        "creatureType": "Fiend",
         "name": "Fiend Eye",
         "dc": 5,
         "id": "avkxkX9FIr7TeRPq",
@@ -1277,6 +1404,14 @@
         "volatile": true,
         "crafting": true,
         "edible": false
+    },
+    {
+        "creatureType": "Ooze",
+        "name": "Ooze Bone",
+        "dc": 10,
+        "crafting": true,
+        "edible": false,
+        "notes": "From Ooze Knight/Dragon in Bones and Roses"
     },
     {
         "creatureType": "Ooze",
@@ -1751,6 +1886,13 @@
         "dc": 20,
         "id": "2ugxh5VDYE9BSQyn",
         "img": "icons/commodities/leather/leather-bolt-tan.webp",
+        "crafting": true,
+        "edible": false
+    },
+    {
+        "creatureType": "Giant",
+        "name": "Giant Hair",
+        "dc": 5,
         "crafting": true,
         "edible": false
     },
