@@ -11,7 +11,7 @@ namespace :components do
     created = 0
 
     def process_component_item(item)
-      return :skipped unless item["id"] && item["name"]
+      return :skipped unless item["name"]
       name = item["name"]
       monster_type = item["creatureType"].to_s.downcase
       component_type = name.gsub(/^#{item["creatureType"]}\s+/i, "")
