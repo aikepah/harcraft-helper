@@ -12,12 +12,21 @@
       <% end %>
     </div>
 
+    <div class="text-sm text-gray-600 mb-4">
+      <strong>Legend:</strong>
+      <sup class="text-green-600 font-bold">E</sup> = Edible,
+      <sup class="text-red-600 font-bold">V</sup> = Volatile,
+      ℹ️ = Has notes (hover to view)
+    </div>
+
     <table class="min-w-full border">
       <thead>
         <tr>
-          <th class="border px-2 py-1">Component</th>
+          <th class="border px-2 py-1">Items</th>
           <th class="border px-2 py-1">Monster Type</th>
           <th class="border px-2 py-1">Component Type</th>
+          <th class="border px-2 py-1">Harvest DC</th>
+          <th class="border px-2 py-1">Harvesting Skills</th>
           <th class="border px-2 py-1">Actions</th>
         </tr>
       </thead>
@@ -33,16 +42,33 @@
               >
                 <span data-expandable-row-target="icon" aria-hidden="true">&#9654;</span>
               </button>
-              <%= component.display_name %>
             </td>
             <td class="border px-2 py-1"><%= component.monster_type&.titleize %></td>
-            <td class="border px-2 py-1"><%= component.component_type&.titleize %></td>
+            <td class="border px-2 py-1">
+              <%= component.component_type&.titleize %>
+              <% if component.edible %><sup class="text-green-600 font-bold">E</sup><% end %>
+              <% if component.volatile %><sup class="text-red-600 font-bold">V</sup><% end %>
+              <% if component.note.present? %>
+                <span class="ml-1 text-xs text-gray-500" title="<%= component.note %>">ℹ️</span>
+              <% end %>
+            </td>
+            <td class="border px-2 py-1"><%= component.dc %></td>
+            <td class="border px-2 py-1">
+              <% harvesting_info = harvesting_info_for_component(component) %>
+              <div class="text-sm">
+                <div><strong>Assessment:</strong> <%= harvesting_info[:assessment_skill] %> (Int)</div>
+                <div><strong>Carving:</strong> <%= harvesting_info[:assessment_skill] %> (Dex)</div>
+                <% if harvesting_info[:ritual_carving_allowed] %>
+                  <div class="text-green-600"><strong>Ritual Carving:</strong> Available</div>
+                <% end %>
+              </div>
+            </td>
             <td class="border px-2 py-1">
               <button type="button" class="px-3 py-1 rounded bg-green-600 text-white font-semibold hover:bg-green-800 transition" data-action="click->modal#open" data-modal-component-id-value="<%= component.id %>">Add</button>
             </td>
           </tr>
           <tr id="craftable-items-<%= component.id %>" class="hidden">
-            <td colspan="4" class="p-0 border-t-0">
+            <td colspan="6" class="p-0 border-t-0">
               <%= render partial: "party_components/craftable_items_for_component", locals: { component: component } %>
             </td>
           </tr>
